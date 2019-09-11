@@ -1,0 +1,21 @@
+
+
+<h2>Marathons</h2>
+
+
+<table border=1>
+<TR style='font-weight: bold' >
+  <TD >Marathon Name</TD>
+    <TD>PR Time</TD>
+      <TD>Times Ran</TD>
+    </TR> 
+<TR *ngFor="let marathon of marathons">
+  <TD>{{ marathon.name }}  </TD>
+  <TD>{{ marathon.PR }}</TD>
+  <TD>{{ marathon.count }} </TD>
+</TR>
+
+</table>
+
+
+
