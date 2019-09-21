@@ -23,7 +23,7 @@ export class MarathonListComponent {
              if (racedata[i].racetype.toString() == 'Marathon')
              {
                imarathons += racedata[i].count;
-          
+               racedata[i].racetype = 'Half Marathon';
              }
          
           }
