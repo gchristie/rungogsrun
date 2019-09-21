@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 
-import { marathons } from '../marathons';
+import { racedata } from '../racedata';
 
 @Component({
   selector: 'app-marathon-list',
@@ -8,15 +8,45 @@ import { marathons } from '../marathons';
   styleUrls: ['./marathon-list.component.css']
 })
 export class MarathonListComponent {
-  marathons = marathons;
+  racedata = racedata;
 
   share() {
     window.alert('The product has been shared!');
   }
+
+  howmanymarathons() 
+  {
+          var i;
+          var imarathons = 0;
+          for (i = 0; i < racedata.length; i++) 
+          {
+             if (racedata[i].racetype.toString() == 'Marathon')
+             {
+               imarathons += racedata[i].count;
+          
+             }
+         
+          }
+           window.alert(imarathons + ' Marathons');
+  
+ }
+
+  howmanyhalfmarathons() 
+  {
+          var i;
+          var ihalfmarathons = 0;
+          for (i = 0; i < racedata.length; i++) 
+          {
+             if (racedata[i].racetype.toString() == 'Half Marathon')
+             {
+               ihalfmarathons += racedata[i].count;     
+             }         
+          }
+    window.alert(ihalfmarathons + ' Half Marathons');
+  }
+
+
 }
-
-
-
 
 /*
 Copyright Google LLC. All Rights Reserved.

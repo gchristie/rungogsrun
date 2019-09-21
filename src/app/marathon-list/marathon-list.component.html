@@ -1,21 +1,45 @@
 
 
 <h2>Marathons</h2>
-
-
 <table border=1>
 <TR style='font-weight: bold' >
-  <TD >Marathon Name</TD>
+  <TD >Race Name</TD>
     <TD>PR Time</TD>
       <TD>Times Ran</TD>
     </TR> 
-<TR *ngFor="let marathon of marathons">
-  <TD>{{ marathon.name }}  </TD>
-  <TD>{{ marathon.PR }}</TD>
-  <TD>{{ marathon.count }} </TD>
+<ng-container *ngFor="let race of racedata">
+ <ng-container *ngIf="race.racetype=='Marathon'"> 
+<TR   >
+  <TD >{{ race.name }} {{ race.racetype }} </TD>
+  <TD>{{ race.PR }}</TD>
+  <TD>{{ race.count }} </TD>
 </TR>
+</ng-container>
+</ng-container>
 
 </table>
+  <button (click)="howmanymarathons()">
+    How Many?
+  </button>
 
+<h2>Half Marathons</h2>
+<table border=1>
+<TR style='font-weight: bold' >
+  <TD >Race Name</TD>
+    <TD>PR Time</TD>
+      <TD>Times Ran</TD>
+    </TR> 
+<ng-container *ngFor="let race of racedata">
+ <ng-container *ngIf="race.racetype=='Half Marathon'"> 
+<TR   >
+  <TD >{{ race.name}}  {{ race.racetype }}  </TD>
+  <TD>{{ race.PR }}</TD>
+  <TD>{{ race.count }} </TD>
+</TR>
+</ng-container>
+</ng-container>
 
-
+</table>
+  <button (click)="howmanyhalfmarathons()">
+    How Many?
+  </button>
