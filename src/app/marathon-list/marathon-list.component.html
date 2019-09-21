@@ -12,7 +12,7 @@
 <TR   >
   <TD >{{ race.name }} {{ race.racetype }} </TD>
   <TD>{{ race.PR }}</TD>
-  <TD>{{ race.count }} </TD>
+  <TD align="center">{{ race.count }} </TD>
 </TR>
 </ng-container>
 </ng-container>
@@ -27,14 +27,14 @@
 <TR style='font-weight: bold' >
   <TD >Race Name</TD>
     <TD>PR Time</TD>
-      <TD>Times Ran</TD>
+      <TD style="align:center">Times Ran</TD>
     </TR> 
 <ng-container *ngFor="let race of racedata">
  <ng-container *ngIf="race.racetype=='Half Marathon'"> 
 <TR   >
   <TD >{{ race.name}}  {{ race.racetype }}  </TD>
   <TD>{{ race.PR }}</TD>
-  <TD>{{ race.count }} </TD>
+  <TD align="center">{{ race.count }} </TD>
 </TR>
 </ng-container>
 </ng-container>
