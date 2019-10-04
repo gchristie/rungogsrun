@@ -42,7 +42,7 @@ export class MarathonListComponent {
                ihalfmarathons += racedata[i].count;     
              }         
           }
-    window.alert(ihalfmarathons + ' Half Marathons');
+        window.alert(ihalfmarathons + ' Half-Marathons');
   }
 
 
