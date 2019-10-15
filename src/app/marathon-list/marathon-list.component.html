@@ -4,15 +4,17 @@
 <table border=1>
 <TR style='font-weight: bold' >
   <TD >Race Name</TD>
-    <TD>PR Time</TD>
-      <TD>Times Ran</TD>
-    </TR> 
+  <TD>PR Time</TD>
+  <TD>Times Ran</TD>
+  <!-- <TD style="align:left">Comment</TD> -->
+</TR> 
 <ng-container *ngFor="let race of racedata">
  <ng-container *ngIf="race.racetype=='Marathon'"> 
 <TR   >
   <TD >{{ race.name }} {{ race.racetype }} </TD>
   <TD>{{ race.PR }}</TD>
   <TD align="center">{{ race.count }} </TD>
+  <!-- <TD align="center">{{ race.comment }} </TD> -->
 </TR>
 </ng-container>
 </ng-container>
@@ -27,15 +29,17 @@
 <table border=1>
 <TR style='font-weight: bold' >
   <TD >Race Name</TD>
-    <TD>PR Time</TD>
-      <TD style="align:center">Times Ran</TD>
-    </TR> 
+  <TD>PR Time</TD>
+  <TD style="align:center">Times Ran</TD>
+  <!-- <TD style="align:left">Comment</TD> -->
+</TR> 
 <ng-container *ngFor="let race of racedata">
  <ng-container *ngIf="race.racetype=='Half Marathon'"> 
 <TR>
   <TD>{{ race.name}} {{ race.racetype }}  </TD>
   <TD>{{ race.PR }}</TD>
   <TD align="center">{{ race.count }} </TD>
+  <!-- <TD align="center">{{ race.comment }} </TD> -->
 </TR>
 </ng-container>
 </ng-container>
@@ -46,7 +50,7 @@
   </button>
 
 
-<h2>10 K's</h2>
+<!-- <h2>10 K's</h2>
 <table border=1>
 <TR style='font-weight: bold' >
   <TD >Race Name</TD>
@@ -66,16 +70,16 @@
 </table>
   <button (click)="aleft(0);">
     How Many?
-</button>
+</button> -->
 
 
-<h2>5 K's</h2>
+<!-- <h2>5 K's</h2>
 <table border=1>
 <TR style='font-weight: bold' >
   <TD >Race Name</TD>
     <TD>PR Time</TD>
-      <TD style="align:center">Times Ran</TD>
-    </TR> 
+    <TD style="align:center">Times Ran</TD>
+</TR> 
 <ng-container *ngFor="let race of racedata">
  <ng-container *ngIf="race.racetype=='5K'"> 
 <TR>
@@ -89,22 +93,22 @@
 </table>
   <button (click)="aleft(0);">
     How Many?
-</button>
+</button> -->
 
 
-<h2>Utras</h2>
+<h2>Other</h2>
 <table border=1>
 <TR style='font-weight: bold' >
   <TD >Race Name</TD>
-    <TD>PR Time</TD>
-      <TD style="align:center">Times Ran</TD>
-    </TR> 
+  <TD>Time</TD>
+  <TD style="align:left">Comment</TD>
+</TR> 
 <ng-container *ngFor="let race of racedata">
- <ng-container *ngIf="race.racetype=='Ultra'"> 
+ <ng-container *ngIf="race.racetype=='ultra'"> 
 <TR>
   <TD>{{ race.name}} {{ race.racetype }}  </TD>
-  <TD>{{ race.PR }}</TD>
-  <TD align="center">{{ race.count }} </TD>
+  <TD>{{ race.time }}</TD>
+  <TD align="center">{{ race.comment }} </TD>
 </TR>
 </ng-container>
 </ng-container>

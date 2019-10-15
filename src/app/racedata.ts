@@ -314,6 +314,14 @@ export var racedata = [
     racetype: 'Half Marathon',
     comment: ''
   }
+             ,
+   {
+    name: '2013 Rocky Raccoon 50 Mile' ,
+    time: '7:41:39',
+    count: 1,
+    racetype: 'ultra',
+    comment: '3rd Place Male'
+  }
 ];
 
 
