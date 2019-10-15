@@ -3,7 +3,8 @@ export var racedata = [
     name: 'Houston',
     PR: '2:51:11',
     count: 10,
-    racetype: 'Marathon'
+    racetype: 'Marathon',
+    comment: ''
   }
  
   ,
@@ -11,28 +12,32 @@ export var racedata = [
     name: 'Boston',
     PR: '2:58:40',
     count: 9,
-   racetype: 'Marathon'
+    racetype: 'Marathon',
+    comment: ''
   }
   ,
    {
     name: 'Seabrook',
     PR: '3:08;50',
     count : 5,
-    racetype: 'Marathon'
+    racetype: 'Marathon',
+    comment: ''
   }
   ,
   {
     name: 'Moray',
     PR: '2:53:06',
     count : 5,
-    racetype: 'Marathon'
+    racetype: 'Marathon',
+    comment: ''
   }
 ,
   {
     name: 'The Woodlands',
     PR: '2:58:43',
     count : 4,
-     racetype: 'Marathon'
+    racetype: 'Marathon',
+    comment: ''
   }
   ,
 
@@ -40,49 +45,56 @@ export var racedata = [
     name: 'Twin Cities',
     PR: '2:52:21',
     count : 3,
-      racetype: 'Marathon'
+    racetype: 'Marathon',
+    comment: ''
   }
   ,
    {
     name: 'BCS',
     PR: '3:04:14',
     count : 3,
-    racetype: 'Marathon'
+    racetype: 'Marathon',
+    comment: ''
   }
   ,
   {
     name: 'RNR Las Vegas',
     PR:'3:13:05',
     count : 3,
-      racetype: 'Marathon'
+    racetype: 'Marathon',
+    comment: ''
   }
   ,
   {
     name: 'Tokyo',
     PR: '3:14:15',
     count : 1,
-     racetype: 'Marathon'
+    racetype: 'Marathon',
+    comment: ''
   }
   ,
   {
     name: 'RNR San Antonio',
     PR: '3:23:35',
     count : 1,
-       racetype: 'Marathon'
+    racetype: 'Marathon',
+    comment: ''
   }
   ,
   {
     name: 'Surfside Beach',
     PR: '3:43:18',
     count : 1,
-     racetype: 'Marathon'
+    racetype: 'Marathon',
+    comment: ''
   },
 
   {
     name: 'The Army',
     PR: '5:30:44',
     count : 1,
-      racetype: 'Marathon'
+    racetype: 'Marathon',
+    comment: ''
   }
 
    ,
@@ -90,7 +102,8 @@ export var racedata = [
     name: 'Aramco Houston',
     PR: '1:46:56',
     count: 1,
-    racetype: 'Half Marathon'
+    racetype: 'Half Marathon',
+    comment: ''
   }
 
      ,
@@ -98,182 +111,208 @@ export var racedata = [
     name: 'Angies Half Crazy' ,
     PR: '1:24:38',
     count: 5,
-    racetype: 'Half Marathon'
+    racetype: 'Half Marathon',
+    comment: ''
   }
       ,
    {
     name: 'Moray' ,
     PR: '1:37:51',
     count: 1,
-    racetype: 'Half Marathon'
+    racetype: 'Half Marathon',
+    comment: ''
   }
       ,
    {
     name: 'Seabrook Lucky Trail' ,
     PR: '1:38:25',
     count: 1,
-    racetype: 'Half Marathon'
+    racetype: 'Half Marathon',
+    comment: ''
   }
       ,
    {
     name: 'Houston' ,
     PR: '	1:20:56',
     count: 7,
-    racetype: 'Half Marathon'
+    racetype: 'Half Marathon',
+    comment: ''
   }
       ,
    {
     name: 'Peterhead' ,
     PR: '1:24:21',
     count: 1,
-    racetype: 'Half Marathon'
+    racetype: 'Half Marathon',
+    comment: ''
   }
       ,
    {
     name: 'Texas' ,
     PR: '1:26:44',
     count: 2,
-    racetype: 'Half Marathon'
+    racetype: 'Half Marathon',
+    comment: ''
   }
       ,
    {
     name: 'Because we care' ,
     PR: '1:25:09',
     count: 1,
-    racetype: 'Half Marathon'
+    racetype: 'Half Marathon',
+    comment: ''
   }
       ,
    {
     name: 'RNR San Antonio' ,
     PR: '1:24:08',
     count: 4,
-    racetype: 'Half Marathon'
+    racetype: 'Half Marathon',
+    comment: ''
   }
       ,
    {
     name: 'Sugar & Spice' ,
     PR: '1:41:11',
     count: 1,
-    racetype: 'Half Marathon'
+    racetype: 'Half Marathon',
+    comment: ''
   }
       ,
    {
     name: 'Love the Half' ,
     PR: '1:36:16',
     count: 1,
-    racetype: 'Half Marathon'
+    racetype: 'Half Marathon',
+    comment: ''
   }
       ,
    {
     name: 'Clear Lake City' ,
     PR: '1:26:59',
     count: 1,
-    racetype: 'Half Marathon'
+    racetype: 'Half Marathon',
+    comment: ''
   }
       ,
    {
     name: 'BCS' ,
     PR: '1:24:43',
     count: 2,
-    racetype: 'Half Marathon'
+    racetype: 'Half Marathon',
+    comment: ''
   }
       ,
    {
     name: 'Rhythm and Blues' ,
     PR: '1:24:40',
     count: 1,
-    racetype: 'Half Marathon'
+    racetype: 'Half Marathon',
+    comment: ''
   }
       ,
    {
     name: 'Disney Princess' ,
     PR: '1:51:42',
     count: 1,
-    racetype: 'Half Marathon'
+    racetype: 'Half Marathon',
+    comment: ''
   }
       ,
    {
     name: 'Biggest Loser' ,
     PR: '1:32:58',
     count: 1,
-    racetype: 'Half Marathon'
+    racetype: 'Half Marathon',
+    comment: ''
   }
       ,
    {
     name: 'La Porte' ,
     PR: '1:32:53',
     count: 1,
-    racetype: 'Half Marathon'
+    racetype: 'Half Marathon',
+    comment: ''
   }
       ,
    {
     name: 'Katy' ,
     PR: '1:24:11',
     count: 2,
-    racetype: 'Half Marathon'
+    racetype: 'Half Marathon',
+    comment: ''
   }
       ,
    {
     name: 'Surfside' ,
     PR: '1:34:38',
     count: 1,
-    racetype: 'Half Marathon'
+    racetype: 'Half Marathon',
+    comment: ''
   }
       ,
    {
     name: 'Dusk to Dawn' ,
     PR: '1:50:50',
     count: 1,
-    racetype: 'Half Marathon'
+    racetype: 'Half Marathon',
+    comment: ''
   }
       ,
    {
     name: 'RNR Dallas' ,
     PR: '1:33:18',
     count: 1,
-    racetype: 'Half Marathon'
+    racetype: 'Half Marathon',
+    comment: ''
   }
         ,
    {
     name: 'RNR Las Vegas' ,
     PR: '2:48:22',
     count: 1,
-    racetype: 'Half Marathon'
+    racetype: 'Half Marathon',
+    comment: ''
   }
         ,
    {
     name: 'Shiner' ,
     PR: '1:30:00',
     count: 1,
-    racetype: 'Half Marathon'
+    racetype: 'Half Marathon',
+    comment: ''
   }
          ,
    {
     name: 'Vintage Park' ,
     PR: '1:30:16',
     count: 1,
-    racetype: 'Half Marathon'
+    racetype: 'Half Marathon',
+    comment: ''
   }
          ,
    {
     name: 'Detroit Free Press' ,
     PR: '2:52:44',
     count: 1,
-    racetype: 'Half Marathon'
+    racetype: 'Half Marathon',
+    comment: ''
   }
          ,
    {
     name: 'Santa Hustle' ,
     PR: '1:34:55',
     count: 1,
-    racetype: 'Half Marathon'
+    racetype: 'Half Marathon',
+    comment: ''
   }
            ,
    {
     name: 'The Woodlands' ,
     PR: '1:31:29',
     count: 1,
-    racetype: 'Half Marathon'
+    racetype: 'Half Marathon',
+    comment: ''
   }
 ];
 
