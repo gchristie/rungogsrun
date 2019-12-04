@@ -98,6 +98,16 @@ export var racedata = [
   }
 
    ,
+
+  {
+    name: 'Marine Corps Marathon',
+    PR: '5:58',
+    count : 1,
+    racetype: 'Marathon',
+    comment: ''
+  }
+
+   ,
    {
     name: 'Aramco Houston',
     PR: '1:46:56',
