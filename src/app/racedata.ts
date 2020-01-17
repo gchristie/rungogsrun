@@ -100,8 +100,8 @@ export var racedata = [
    ,
 
   {
-    name: 'Marine Corps Marathon',
-    PR: '5:58',
+    name: 'Marine Corps',
+    PR: '5:58:00',
     count : 1,
     racetype: 'Marathon',
     comment: ''
