@@ -28,7 +28,7 @@ export var racedata =
  , { name:'Texas',PR:'1:26:44',count:2,racetype:'Half Marathon',comment:'' } 
  , { name:'Because we care',PR:'1:25:09',count:1,racetype:'Half Marathon',comment:'1st Place' } 
  , { name:'RNR San Antonio',PR:'1:24:08',count:4,racetype:'Half Marathon',comment:'' } 
- , { name:'Sugar & Spice',PR:'1:41:11',count:1,racetype:'Half Marathon',comment:'1st Place with Catherine' } 
+ , { name:'Sugar & Spice',PR:'1:41:11',count:1,racetype:'Half Marathon',comment:'Catherine finished in 1st place' } 
  , { name:'Love the Half',PR:'1:36:16',count:1,racetype:'Half Marathon',comment:'' } 
  , { name:'Clear Lake City',PR:'1:26:59',count:1,racetype:'Half Marathon',comment:'1st Place' } 
  , { name:'BCS',PR:'1:24:43',count:2,racetype:'Half Marathon',comment:'' } 
