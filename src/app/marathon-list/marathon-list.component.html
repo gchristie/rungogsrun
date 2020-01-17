@@ -1,4 +1,24 @@
 
+<h2>Ultra Marathons</h2>
+<table border=1>
+<TR style='font-weight: bold' >
+  <TD >Race Name</TD>
+  <TD>PR Time</TD>
+  <TD>Times Ran</TD>
+  <TD style="align:left">Comment</TD>
+</TR> 
+<ng-container *ngFor="let race of racedata">
+ <ng-container *ngIf="race.racetype=='Ultra Marathon'"> 
+<TR   >
+  <TD >{{ race.name }} {{ race.racetype }} </TD>
+  <TD>{{ race.PR }}</TD>
+  <TD align="center">{{ race.count }} </TD>
+  <TD align="center">{{ race.comment }} </TD>
+</TR>
+</ng-container>
+</ng-container>
+</table>
+<button (click)="howmany('Ultra Marathon')"> How Many? </button>
 
 <h2>Marathons</h2>
 <table border=1>
@@ -6,7 +26,7 @@
   <TD >Race Name</TD>
   <TD>PR Time</TD>
   <TD>Times Ran</TD>
-  <!-- <TD style="align:left">Comment</TD> -->
+  <TD style="align:left">Comment</TD>
 </TR> 
 <ng-container *ngFor="let race of racedata">
  <ng-container *ngIf="race.racetype=='Marathon'"> 
@@ -14,16 +34,12 @@
   <TD >{{ race.name }} {{ race.racetype }} </TD>
   <TD>{{ race.PR }}</TD>
   <TD align="center">{{ race.count }} </TD>
-  <!-- <TD align="center">{{ race.comment }} </TD> -->
+  <TD align="center">{{ race.comment }} </TD>
 </TR>
 </ng-container>
 </ng-container>
-
 </table>
-
-  <button (click)="howmanymarathons()">
-    How Many?
-  </button>
+<button (click)="howmany('Marathon')"> How Many? </button>
 
 <h2>Half Marathons</h2>
 <table border=1>
@@ -31,7 +47,7 @@
   <TD >Race Name</TD>
   <TD>PR Time</TD>
   <TD style="align:center">Times Ran</TD>
-  <!-- <TD style="align:left">Comment</TD> -->
+  <TD style="align:left">Comment</TD>
 </TR> 
 <ng-container *ngFor="let race of racedata">
  <ng-container *ngIf="race.racetype=='Half Marathon'"> 
@@ -39,81 +55,11 @@
   <TD>{{ race.name}} {{ race.racetype }}  </TD>
   <TD>{{ race.PR }}</TD>
   <TD align="center">{{ race.count }} </TD>
-  <!-- <TD align="center">{{ race.comment }} </TD> -->
-</TR>
-</ng-container>
-</ng-container>
-
-</table>
-  <button (click)="howmanyhalfmarathons()">
-    How Many?
-  </button>
-
-
-<!-- <h2>10 K's</h2>
-<table border=1>
-<TR style='font-weight: bold' >
-  <TD >Race Name</TD>
-    <TD>PR Time</TD>
-      <TD style="align:center">Times Ran</TD>
-    </TR> 
-<ng-container *ngFor="let race of racedata">
- <ng-container *ngIf="race.racetype=='10K'"> 
-<TR>
-  <TD>{{ race.name}} {{ race.racetype }}  </TD>
-  <TD>{{ race.PR }}</TD>
-  <TD align="center">{{ race.count }} </TD>
-</TR>
-</ng-container>
-</ng-container>
-
-</table>
-  <button (click)="aleft(0);">
-    How Many?
-</button> -->
-
-
-<!-- <h2>5 K's</h2>
-<table border=1>
-<TR style='font-weight: bold' >
-  <TD >Race Name</TD>
-    <TD>PR Time</TD>
-    <TD style="align:center">Times Ran</TD>
-</TR> 
-<ng-container *ngFor="let race of racedata">
- <ng-container *ngIf="race.racetype=='5K'"> 
-<TR>
-  <TD>{{ race.name}} {{ race.racetype }}  </TD>
-  <TD>{{ race.PR }}</TD>
-  <TD align="center">{{ race.count }} </TD>
-</TR>
-</ng-container>
-</ng-container>
-
-</table>
-  <button (click)="aleft(0);">
-    How Many?
-</button> -->
-
-
-<h2>Other</h2>
-<table border=1>
-<TR style='font-weight: bold' >
-  <TD >Race Name</TD>
-  <TD>Time</TD>
-  <TD style="align:left">Comment</TD>
-</TR> 
-<ng-container *ngFor="let race of racedata">
- <ng-container *ngIf="race.racetype=='ultra'"> 
-<TR>
-  <TD>{{ race.name}} {{ race.racetype }}  </TD>
-  <TD>{{ race.time }}</TD>
   <TD align="center">{{ race.comment }} </TD>
 </TR>
 </ng-container>
 </ng-container>
-
 </table>
-  <button (click)="aleft(0);">
-    How Many?
-</button>
+<button (click)="howmany('Half Marathon')"> How Many? </button>
+
+

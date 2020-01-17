@@ -14,35 +14,18 @@ export class MarathonListComponent {
     window.alert('The product has been shared!');
   }
 
-  howmanymarathons() 
-  {
-          var i;
-          var imarathons = 0;
-          for (i = 0; i < racedata.length; i++) 
-          {
-             if (racedata[i].racetype.toString() == 'Marathon')
-             {
-               imarathons += racedata[i].count;
-              // racedata[i].racetype = 'Half Marathon';
-             }
-         
-          }
-           window.alert(imarathons + ' Marathons');
-  
- }
-
-  howmanyhalfmarathons() 
+    howmany(racetype) 
   {
           var i;
           var ihalfmarathons = 0;
           for (i = 0; i < racedata.length; i++) 
           {
-             if (racedata[i].racetype.toString() == 'Half Marathon')
+             if (racedata[i].racetype.toString() == racetype)
              {
                ihalfmarathons += racedata[i].count;     
              }         
           }
-        window.alert(ihalfmarathons + ' Half-Marathons');
+        window.alert(ihalfmarathons + " " + racetype + " Races");
   }
 
 
