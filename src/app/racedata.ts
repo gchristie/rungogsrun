@@ -3,7 +3,7 @@ export var racedata =
 //Ultra Marathons
   { name:'2013 Rocky Raccoon 50 Mile',PR:'7:41:39',count:1,racetype:'Ultra Marathon',comment:'3rd Place Male'  }  
 //Marathons
- , { name:'Houston',PR:'2:51:11',count:10,racetype:'Marathon',comment:'Marathon PR'  }
+ , { name:'Houston',PR:'2:51:11',count:11,racetype:'Marathon',comment:'Marathon PR'  }
  , { name:'Boston',PR:'2:58:40',count:9,racetype:'Marathon',comment:''  }
  , { name:'Seabrook',PR:'3:08;50',count :5,racetype:'Marathon',comment:'2012 1st Place'  }
  , { name:'Moray',PR:'2:53:06',count :5,racetype:'Marathon',comment:''  }
