@@ -21,7 +21,6 @@ import { MarathonListComponent } from './marathon-list/marathon-list.component';
   declarations: [
     AppComponent,
     TopBarComponent,
-  
     MarathonListComponent
   ],
   bootstrap: [ AppComponent ]

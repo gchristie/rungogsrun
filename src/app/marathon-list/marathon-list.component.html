@@ -8,7 +8,29 @@
   <button (click)="howmany('Virtual Marathon')" class="tablinks">?</button>
   <button (click)="ShowTab('Half Marathon')" class="tablinks" >Half Marathons</button>
   <button (click)="howmany('Half Marathon')" class="tablinks" >?</button>
+  <button (click)="ShowTab('Upcoming Race')" class="tablinks" >Upcoming Races</button>
+  <button (click)="howmany('Upcoming Race')" class="tablinks" >?</button>
 </div>
+
+<DIV id="UpcomingRaces">
+<h2>Upcoming Races</h2>
+<table border=1>
+<TR style='font-weight: bold' >
+  <TD >Race Name</TD>
+  <TD>Goal Time</TD>
+  <TD style="align:left">Race Date</TD>
+</TR> 
+<ng-container *ngFor="let race of racedata">
+ <ng-container *ngIf="race.racetype=='Upcoming Race'"> 
+<TR   >
+  <TD >{{ race.name }} {{ race.racetype }} </TD>
+  <TD>{{ race.PR }}</TD>
+  <TD align="center">{{ race.comment }} </TD>
+</TR>
+</ng-container>
+</ng-container>
+</table>
+</DIV>
 
 <DIV id="UltraMarathons">
 <h2>Ultra Marathons</h2>
@@ -30,7 +52,6 @@
 </ng-container>
 </ng-container>
 </table>
-<!-- <button (click)="howmany('Ultra Marathon')"> How Many? </button> -->
 </DIV>
 
 <DIV id="Marathons">
@@ -53,7 +74,6 @@
 </ng-container>
 </ng-container>
 </table>
-<!-- <button (click)="howmany('Marathon')"> How Many? </button> -->
 </DIV>
 
 <DIV id="VirtualMarathons">
@@ -76,7 +96,6 @@
 </ng-container>
 </ng-container>
 </table>
-<!-- <button (click)="howmany('Marathon')"> How Many? </button> -->
 </DIV>
 <DIV id="HalfMarathons">
 <h2>Half Marathons</h2>
@@ -98,6 +117,6 @@
 </ng-container>
 </ng-container>
 </table>
-<!-- <button (click)="howmany('Half Marathon')"> How Many? </button> -->
 <DIV>
+
 

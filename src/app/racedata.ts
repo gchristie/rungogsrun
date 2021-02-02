@@ -1,7 +1,11 @@
 export var racedata = 
 [ 
+//Upcoming Races
+
+   { name:'Chicago Marathon',PR:'3:24:59',count:1,racetype:'Upcoming Race',comment:'10/10/2021'  }  
+   , { name:'Boston Marathon',PR:'Finish',count:1,racetype:'Upcoming Race',comment:'10/11/2021'  }  
 //Ultra Marathons
-  { name:'Rocky Raccoon 50 Mile',PR:'7:41:39',count:1,racetype:'Ultra Marathon',comment:'3rd Place Male 2013'  }  
+ , { name:'Rocky Raccoon 50 Mile',PR:'7:41:39',count:1,racetype:'Ultra Marathon',comment:'3rd Place Male 2013'  }  
 , { name:'Snowdrop 100 Miles',PR:'',count:6,racetype:'Ultra Marathon',comment:'3rd Place Male 2019'  }  
 , { name:'Brazos Bend 100 Miles',PR:'',count:1,racetype:'Ultra Marathon',comment:''  }  
 , { name:'Habanero Hunderd 50K',PR:'',count:1,racetype:'Ultra Marathon',comment:''  }  

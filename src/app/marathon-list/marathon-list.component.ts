@@ -31,35 +31,24 @@ export class MarathonListComponent {
 
     ShowTab(racetype) 
   {
-    if (racetype == 'Ultra Marathon')
-    {  
-      document.getElementById('UltraMarathons').hidden = false;
-      document.getElementById('Marathons').hidden = true;
-      document.getElementById('VirtualMarathons').hidden = true;
-      document.getElementById('HalfMarathons').hidden = true;
-    }
-    else if (racetype == 'Marathon')
-    {
-      document.getElementById('UltraMarathons').hidden = true;
-      document.getElementById('Marathons').hidden = false;
-      document.getElementById('VirtualMarathons').hidden = true;
-      document.getElementById('HalfMarathons').hidden = true;
-    } 
-    else if (racetype == 'Virtual Marathon')
-    {
-      document.getElementById('UltraMarathons').hidden = true;
-      document.getElementById('Marathons').hidden = true;
-      document.getElementById('VirtualMarathons').hidden = false;
-      document.getElementById('HalfMarathons').hidden = true;
-    } 
+    document.getElementById('UltraMarathons').hidden = true;
+    document.getElementById('Marathons').hidden = true;
+    document.getElementById('VirtualMarathons').hidden = true;
+    document.getElementById('HalfMarathons').hidden = true;
+    document.getElementById('UpcomingRaces').hidden = true;
+    if (racetype == 'Upcoming Race')
+    { document.getElementById('UpcomingRaces').hidden = false; } 
+    else if (racetype == 'Ultra Marathon') 
+    { document.getElementById('UltraMarathons').hidden = false; }
+    else if (racetype == 'Marathon') 
+    { document.getElementById('Marathons').hidden = false; } 
+    else if (racetype == 'Virtual Marathon')    
+    { document.getElementById('VirtualMarathons').hidden = false; } 
     else if (racetype == 'Half Marathon')
-    {
-      document.getElementById('UltraMarathons').hidden = true;
-      document.getElementById('Marathons').hidden = true;
-      document.getElementById('VirtualMarathons').hidden = true;
-      document.getElementById('HalfMarathons').hidden = false;
-    } 
+    { document.getElementById('HalfMarathons').hidden = false; } 
+
   }
+  
 }
 
 /*
