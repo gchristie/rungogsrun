@@ -56,6 +56,28 @@
 <!-- <button (click)="howmany('Marathon')"> How Many? </button> -->
 </DIV>
 
+<DIV id="VirtualMarathons">
+<h2>Virtual Marathons</h2>
+<table border=1>
+<TR style='font-weight: bold' >
+  <TD >Race Name</TD>
+  <TD>PR Time</TD>
+  <TD>Times Ran</TD>
+  <TD style="align:left">Comment</TD>
+</TR> 
+<ng-container *ngFor="let race of racedata">
+ <ng-container *ngIf="race.racetype=='Virtual Marathon'"> 
+<TR   >
+  <TD >{{ race.name }} {{ race.racetype }} </TD>
+  <TD>{{ race.PR }}</TD>
+  <TD align="center">{{ race.count }} </TD>
+  <TD align="center">{{ race.comment }} </TD>
+</TR>
+</ng-container>
+</ng-container>
+</table>
+<!-- <button (click)="howmany('Marathon')"> How Many? </button> -->
+</DIV>
 <DIV id="HalfMarathons">
 <h2>Half Marathons</h2>
 <table border=1>

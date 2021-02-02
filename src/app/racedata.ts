@@ -2,7 +2,10 @@ export var racedata =
 [ 
 //Ultra Marathons
   { name:'Rocky Raccoon 50 Mile',PR:'7:41:39',count:1,racetype:'Ultra Marathon',comment:'3rd Place Male 2013'  }  
-, { name:'Snowdrop 100 Miles',PR:'23:40',count:6,racetype:'Ultra Marathon',comment:'3rd Place Male 2019'  }  
+, { name:'Snowdrop 100 Miles',PR:'',count:6,racetype:'Ultra Marathon',comment:'3rd Place Male 2019'  }  
+, { name:'Brazos Bend 100 Miles',PR:'',count:1,racetype:'Ultra Marathon',comment:''  }  
+, { name:'Habanero Hunderd 50K',PR:'',count:1,racetype:'Ultra Marathon',comment:''  }  
+, { name:'Habanero Hunderd 100K',PR:'',count:1,racetype:'Ultra Marathon',comment:''  }   
 //Marathons
  , { name:'Houston',PR:'2:51:11',count:11,racetype:'Marathon',comment:'Marathon PR'  }
  , { name:'Boston',PR:'2:58:40',count:9,racetype:'Marathon',comment:''  }
@@ -19,6 +22,9 @@ export var racedata =
   , { name:'The Army',PR:'5:30:44',count :1,racetype:'Marathon',comment:'' }
   //Virtual Marathons
    , { name:'Boston',PR:'',count:1,racetype:'Virtual Marathon',comment:''  }
+   , { name:'London',PR:'',count:1,racetype:'Virtual Marathon',comment:''  }
+   , { name:'Marine Corps 50K',PR:'',count:1,racetype:'Virtual Marathon',comment:''  }
+   , { name:'Marine Corps',PR:'',count:1,racetype:'Virtual Marathon',comment:''  }
   //Half Marathons
  , { name:'Aramco Houston',PR:'1:46:56',count:1,racetype:'Half Marathon',comment:'1st Half Marathon' } 
  , { name:'Angies Half Crazy',PR:'1:24:38',count:5,racetype:'Half Marathon',comment:'' } 
