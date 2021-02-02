@@ -1,7 +1,8 @@
 export var racedata = 
 [ 
 //Ultra Marathons
-  { name:'2013 Rocky Raccoon 50 Mile',PR:'7:41:39',count:1,racetype:'Ultra Marathon',comment:'3rd Place Male'  }  
+  { name:'Rocky Raccoon 50 Mile',PR:'7:41:39',count:1,racetype:'Ultra Marathon',comment:'3rd Place Male 2013'  }  
+, { name:'Snowdrop 100 Miles',PR:'23:40',count:6,racetype:'Ultra Marathon',comment:'3rd Place Male 2019'  }  
 //Marathons
  , { name:'Houston',PR:'2:51:11',count:11,racetype:'Marathon',comment:'Marathon PR'  }
  , { name:'Boston',PR:'2:58:40',count:9,racetype:'Marathon',comment:''  }
@@ -11,13 +12,13 @@ export var racedata =
  , { name:'Twin Cities',PR:'2:52:21',count :3,racetype:'Marathon',comment:'All 3 times under 3 hours' }
  , { name:'BCS',PR:'3:04:14',count :3,racetype:'Marathon',comment:'' }
  , { name:'RNR Las Vegas',PR:'3:13:05',count :3,racetype:'Marathon',comment:'' }
- , { name:'2019 RNR Las Vegas 16.7 mile shortcut',PR:'4:16:47',count :0,racetype:'Marathon',comment:'' }
  , { name:'Tokyo',PR:'3:14:15',count :1,racetype:'Marathon',comment:'' }
  , { name:'RNR San Antonio',PR:'3:23:35',count :1,racetype:'Marathon',comment:'' }
  , { name:'Surfside Beach',PR:'3:43:18',count :1,racetype:'Marathon',comment:'' }
-
  , { name:'Marine Corps',PR:'5:58:00',count :1,racetype:'Marathon',comment:'' } 
   , { name:'The Army',PR:'5:30:44',count :1,racetype:'Marathon',comment:'' }
+  //Virtual Marathons
+   , { name:'Boston',PR:'',count:1,racetype:'Virtual Marathon',comment:''  }
   //Half Marathons
  , { name:'Aramco Houston',PR:'1:46:56',count:1,racetype:'Half Marathon',comment:'1st Half Marathon' } 
  , { name:'Angies Half Crazy',PR:'1:24:38',count:5,racetype:'Half Marathon',comment:'' } 
