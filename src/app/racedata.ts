@@ -8,18 +8,19 @@ export var racedata =
 , { name:'Habanero Hunderd 100K',PR:'',count:1,racetype:'Ultra Marathon',comment:''  }   
 //Marathons
  , { name:'Houston',PR:'2:51:11',count:11,racetype:'Marathon',comment:'Marathon PR'  }
- , { name:'Boston',PR:'2:58:40',count:9,racetype:'Marathon',comment:''  }
- , { name:'Seabrook',PR:'3:08:50',count :5,racetype:'Marathon',comment:'2012 1st Place'  }
+  , { name:'Twin Cities',PR:'2:52:21',count :3,racetype:'Marathon',comment:'All 3 times under 3 hours' }
+   , { name:'Boston',PR:'2:58:40',count:9,racetype:'Marathon',comment:''  }
  , { name:'Moray',PR:'2:53:06',count :5,racetype:'Marathon',comment:''  }
  , { name:'The Woodlands',PR:'2:58:43',count :4,racetype:'Marathon',comment:'' }  
- , { name:'Twin Cities',PR:'2:52:21',count :3,racetype:'Marathon',comment:'All 3 times under 3 hours' }
  , { name:'BCS',PR:'3:04:14',count :3,racetype:'Marathon',comment:'' }
+  , { name:'Seabrook',PR:'3:08:50',count :5,racetype:'Marathon',comment:'2012 1st Place'  }
  , { name:'RNR Las Vegas',PR:'3:13:05',count :3,racetype:'Marathon',comment:'' }
  , { name:'Tokyo',PR:'3:14:15',count :1,racetype:'Marathon',comment:'' }
  , { name:'RNR San Antonio',PR:'3:23:35',count :1,racetype:'Marathon',comment:'' }
  , { name:'Surfside Beach',PR:'3:43:18',count :1,racetype:'Marathon',comment:'' }
+ , { name:'The Army',PR:'5:30:44',count :1,racetype:'Marathon',comment:'' }
  , { name:'Marine Corps',PR:'5:58:00',count :1,racetype:'Marathon',comment:'' } 
-  , { name:'The Army',PR:'5:30:44',count :1,racetype:'Marathon',comment:'' }
+
   //Virtual Marathons
    , { name:'Boston',PR:'',count:1,racetype:'Virtual Marathon',comment:''  }
    , { name:'London',PR:'',count:1,racetype:'Virtual Marathon',comment:''  }
