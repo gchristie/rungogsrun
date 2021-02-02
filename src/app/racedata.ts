@@ -28,33 +28,34 @@ export var racedata =
    , { name:'Marine Corps',PR:'',count:1,racetype:'Virtual Marathon',comment:''  }
    , { name:'Houston',PR:'',count:1,racetype:'Virtual Marathon',comment:''  }
   //Half Marathons
- , { name:'Aramco Houston',PR:'1:46:56',count:1,racetype:'Half Marathon',comment:'1st Half Marathon' } 
- , { name:'Angies Half Crazy',PR:'1:24:38',count:5,racetype:'Half Marathon',comment:'' } 
- , { name:'Moray',PR:'1:37:51',count:1,racetype:'Half Marathon',comment:'' } 
- , { name:'Seabrook Lucky Trail',PR:'1:38:25',count:1,racetype:'Half Marathon',comment:'' } 
- , { name:'Houston',PR:'	1:20:56',count:7,racetype:'Half Marathon',comment:'Half Marathon PR' } 
- , { name:'Peterhead',PR:'1:24:21',count:1,racetype:'Half Marathon',comment:'' } 
- , { name:'Texas',PR:'1:26:44',count:2,racetype:'Half Marathon',comment:'' } 
- , { name:'Because we care',PR:'1:25:09',count:1,racetype:'Half Marathon',comment:'1st Place' } 
- , { name:'RNR San Antonio',PR:'1:24:08',count:4,racetype:'Half Marathon',comment:'' } 
- , { name:'Sugar & Spice',PR:'1:41:11',count:1,racetype:'Half Marathon',comment:'Catherine finished in 1st place' } 
- , { name:'Love the Half',PR:'1:36:16',count:1,racetype:'Half Marathon',comment:'' } 
- , { name:'Clear Lake City',PR:'1:26:59',count:1,racetype:'Half Marathon',comment:'1st Place' } 
+   , { name:'Houston',PR:'	1:20:56',count:7,racetype:'Half Marathon',comment:'Half Marathon PR' } 
+   , { name:'RNR San Antonio',PR:'1:24:08',count:4,racetype:'Half Marathon',comment:'' } 
+    , { name:'Katy',PR:'1:24:11',count:2,racetype:'Half Marathon',comment:'' }
+  , { name:'Peterhead',PR:'1:24:21',count:1,racetype:'Half Marathon',comment:'' } 
+  , { name:'Angies Half Crazy',PR:'1:24:38',count:5,racetype:'Half Marathon',comment:'' } 
+  , { name:'Rhythm and Blues',PR:'1:24:40',count:1,racetype:'Half Marathon',comment:'' } 
  , { name:'BCS',PR:'1:24:43',count:2,racetype:'Half Marathon',comment:'' } 
- , { name:'Rhythm and Blues',PR:'1:24:40',count:1,racetype:'Half Marathon',comment:'' } 
- , { name:'Disney Princess',PR:'1:51:42',count:1,racetype:'Half Marathon',comment:'with Catherine' } 
- , { name:'Biggest Loser',PR:'1:32:58',count:1,racetype:'Half Marathon',comment:'' } 
- , { name:'La Porte',PR:'1:32:53',count:1,racetype:'Half Marathon',comment:'' } 
- , { name:'Katy',PR:'1:24:11',count:2,racetype:'Half Marathon',comment:'' }
-,  { name:'Surfside',PR:'1:34:38',count:1,racetype:'Half Marathon',comment:''  } 
- , { name:'Dusk to Dawn',PR:'1:50:50',count:1,racetype:'Half Marathon',comment:'ran woodlands Marathon in morning' } 
- , { name:'RNR Dallas',PR:'1:33:18',count:1,racetype:'Half Marathon',comment:''  } 
- , { name:'RNR Las Vegas',PR:'2:48:22',count:1,racetype:'Half Marathon',comment:''  } 
+ , { name:'Because we care',PR:'1:25:09',count:1,racetype:'Half Marathon',comment:'1st Place' } 
+  , { name:'Texas',PR:'1:26:44',count:2,racetype:'Half Marathon',comment:'' } 
+ , { name:'Clear Lake City',PR:'1:26:59',count:1,racetype:'Half Marathon',comment:'1st Place' } 
  , { name:'Shiner',PR:'1:30:00',count:1,racetype:'Half Marathon',comment:''  } 
  , { name:'Vintage Park',PR:'1:30:16',count:1,racetype:'Half Marathon',comment:''  } 
- , { name:'Detroit Free Press',PR:'2:52:44',count:1,racetype:'Half Marathon',comment:'after running 87 miles' } 
+  , {  name:'The Woodlands',PR:'1:31:29',count:1,racetype:'Half Marathon',comment:'' } 
+
+   , { name:'La Porte',PR:'1:32:53',count:1,racetype:'Half Marathon',comment:'' } 
+    , { name:'Biggest Loser',PR:'1:32:58',count:1,racetype:'Half Marathon',comment:'' } 
+ , { name:'RNR Dallas',PR:'1:33:18',count:1,racetype:'Half Marathon',comment:''  } 
+,  { name:'Surfside',PR:'1:34:38',count:1,racetype:'Half Marathon',comment:''  } 
  , { name:'Santa Hustle',PR:'1:34:55',count:1,racetype:'Half Marathon',comment:'' } 
- , {  name:'The Woodlands',PR:'1:31:29',count:1,racetype:'Half Marathon',comment:'' } 
+  , { name:'Love the Half',PR:'1:36:16',count:1,racetype:'Half Marathon',comment:'' } 
+  , { name:'Moray',PR:'1:37:51',count:1,racetype:'Half Marathon',comment:'' } 
+  , { name:'Seabrook Lucky Trail',PR:'1:38:25',count:1,racetype:'Half Marathon',comment:'' } 
+ , { name:'Sugar & Spice',PR:'1:41:11',count:1,racetype:'Half Marathon',comment:'Catherine finished in 1st place' } 
+  , { name:'Aramco Houston',PR:'1:46:56',count:1,racetype:'Half Marathon',comment:'1st Half Marathon' } 
+   , { name:'Dusk to Dawn',PR:'1:50:50',count:1,racetype:'Half Marathon',comment:'ran woodlands Marathon in morning' } 
+    , { name:'Disney Princess',PR:'1:51:42',count:1,racetype:'Half Marathon',comment:'with Catherine' } 
+   , { name:'RNR Las Vegas',PR:'2:48:22',count:1,racetype:'Half Marathon',comment:''  } 
+   , { name:'Detroit Free Press',PR:'2:52:44',count:1,racetype:'Half Marathon',comment:'after running 87 miles' } 
 ];
 /*
 Copyright Google LLC. All Rights Reserved.
