@@ -25,6 +25,7 @@ export var racedata =
    , { name:'London',PR:'',count:1,racetype:'Virtual Marathon',comment:''  }
    , { name:'Marine Corps 50K',PR:'',count:1,racetype:'Virtual Marathon',comment:''  }
    , { name:'Marine Corps',PR:'',count:1,racetype:'Virtual Marathon',comment:''  }
+   , { name:'Houston',PR:'',count:1,racetype:'Virtual Marathon',comment:''  }
   //Half Marathons
  , { name:'Aramco Houston',PR:'1:46:56',count:1,racetype:'Half Marathon',comment:'1st Half Marathon' } 
  , { name:'Angies Half Crazy',PR:'1:24:38',count:5,racetype:'Half Marathon',comment:'' } 
