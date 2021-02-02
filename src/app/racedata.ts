@@ -1,8 +1,8 @@
 export var racedata = 
 [ 
 //Upcoming Races
-  { name:'Brazos Bend 50K',PR:'',count:1,racetype:'Upcoming Race',comment:'April 2021'  }  
- , { name:'No Label Triathlon',PR:'',count:1,racetype:'Upcoming Race',comment:'May 2021'  }  
+  { name:'Brazos Bend 50K',PR:'',count:1,racetype:'Upcoming Race',comment:'04/03/2021'  }  
+ , { name:'No Label Triathlon',PR:'',count:1,racetype:'Upcoming Race',comment:'05/15/2021'  }  
  , { name:'Chicago Marathon',PR:'3:24:59',count:1,racetype:'Upcoming Race',comment:'10/10/2021'  }  
  , { name:'Boston Marathon',PR:'Finish',count:1,racetype:'Upcoming Race',comment:'10/11/2021'  }  
 //Ultra Marathons
