@@ -1,18 +1,23 @@
 
 <div class="tab">
-  <button (click)="ShowTab('Ultra Marathon')" class="tablinks" >Ultra Marathons</button>
-  <button (click)="howmany('Ultra Marathon')" class="tablinks" >?</button>
+  <button (click)="ShowTab('UltraMarathon')" class="tablinks" >Ultra Marathons</button>
+  <button (click)="howmany('UltraMarathon')" class="tablinks" >?</button>
   <button (click)="ShowTab('Marathon')" class="tablinks" >Marathons</button>
   <button (click)="howmany('Marathon')" class="tablinks">?</button>
-  <button (click)="ShowTab('Virtual Marathon')" class="tablinks" >Virtual Marathons</button>
-  <button (click)="howmany('Virtual Marathon')" class="tablinks">?</button>
-  <button (click)="ShowTab('Half Marathon')" class="tablinks" >Half Marathons</button>
-  <button (click)="howmany('Half Marathon')" class="tablinks" >?</button>
-  <button (click)="ShowTab('Upcoming Race')" class="tablinks" >Upcoming Races</button>
-  <button (click)="howmany('Upcoming Race')" class="tablinks" >?</button>
+  <button (click)="ShowTab('VirtualMarathon')" class="tablinks" >Virtual Marathons</button>
+  <button (click)="howmany('VirtualMarathon')" class="tablinks">?</button>
+  <button (click)="ShowTab('HalfMarathon')" class="tablinks" >Half Marathons</button>
+  <button (click)="howmany('HalfMarathon')" class="tablinks" >?</button>
+  <button (click)="ShowTab('UpcomingRace')" class="tablinks" >Upcoming Races</button>
+  <button (click)="howmany('UpcomingRace')" class="tablinks" >?</button> 
+  <button (click)="ShowTab('Run')" class="tablinks" >Other Runs</button>
+  <button (click)="howmany('Run')" class="tablinks" >?</button>  
+  <button (click)="ShowTab('Triathlon')" class="tablinks" >Triathlons</button>
+  <button (click)="howmany('Triathlon')" class="tablinks" >?</button>
+  <button (click)="ShowTab('All')" class="tablinks" >All</button>
 </div>
 
-<DIV id="UpcomingRaces">
+<DIV id="UpcomingRace">
 <h2>Upcoming Races</h2>
 <table border=1>
 <TR style='font-weight: bold' >
@@ -21,7 +26,7 @@
   <TD style="align:left">Race Date</TD>
 </TR> 
 <ng-container *ngFor="let race of racedata">
- <ng-container *ngIf="race.racetype=='Upcoming Race'"> 
+ <ng-container *ngIf="race.racetype=='UpcomingRace'"> 
 <TR   >
   <TD >{{ race.name }} {{ race.racetype }} </TD>
   <TD>{{ race.PR }}</TD>
@@ -32,17 +37,17 @@
 </table>
 </DIV>
 
-<DIV id="UltraMarathons">
+<DIV id="UltraMarathon">
 <h2>Ultra Marathons</h2>
 <table border=1>
 <TR style='font-weight: bold' >
   <TD >Race Name</TD>
   <TD>PR Time</TD>
-  <TD>Times Ran</TD>
+  <TD>Times Done</TD>
   <TD style="align:left">Comment</TD>
 </TR> 
 <ng-container *ngFor="let race of racedata">
- <ng-container *ngIf="race.racetype=='Ultra Marathon'"> 
+ <ng-container *ngIf="race.racetype=='UltraMarathon'"> 
 <TR   >
   <TD >{{ race.name }} {{ race.racetype }} </TD>
   <TD>{{ race.PR }}</TD>
@@ -54,13 +59,13 @@
 </table>
 </DIV>
 
-<DIV id="Marathons">
+<DIV id="Marathon">
 <h2>Marathons</h2>
 <table border=1>
 <TR style='font-weight: bold' >
   <TD >Race Name</TD>
   <TD>PR Time</TD>
-  <TD>Times Ran</TD>
+  <TD>Times Done</TD>
   <TD style="align:left">Comment</TD>
 </TR> 
 <ng-container *ngFor="let race of racedata">
@@ -76,17 +81,17 @@
 </table>
 </DIV>
 
-<DIV id="VirtualMarathons">
+<DIV id="VirtualMarathon">
 <h2>Virtual Marathons</h2>
 <table border=1>
 <TR style='font-weight: bold' >
   <TD >Race Name</TD>
   <TD>PR Time</TD>
-  <TD>Times Ran</TD>
+  <TD>Times Done</TD>
   <TD style="align:left">Comment</TD>
 </TR> 
 <ng-container *ngFor="let race of racedata">
- <ng-container *ngIf="race.racetype=='Virtual Marathon'"> 
+ <ng-container *ngIf="race.racetype=='VirtualMarathon'"> 
 <TR   >
   <TD >{{ race.name }} {{ race.racetype }} </TD>
   <TD>{{ race.PR }}</TD>
@@ -97,17 +102,59 @@
 </ng-container>
 </table>
 </DIV>
-<DIV id="HalfMarathons">
+<DIV id="HalfMarathon">
 <h2>Half Marathons</h2>
 <table border=1>
 <TR style='font-weight: bold' >
   <TD >Race Name</TD>
   <TD>PR Time</TD>
-  <TD style="align:center">Times Ran</TD>
+  <TD style="align:center">Times Done</TD>
   <TD style="align:left">Comment</TD>
 </TR> 
 <ng-container *ngFor="let race of racedata">
- <ng-container *ngIf="race.racetype=='Half Marathon'"> 
+ <ng-container *ngIf="race.racetype=='HalfMarathon'"> 
+<TR>
+  <TD>{{ race.name}} {{ race.racetype }}  </TD>
+  <TD>{{ race.PR }}</TD>
+  <TD align="center">{{ race.count }} </TD>
+  <TD align="center">{{ race.comment }} </TD>
+</TR>
+</ng-container>
+</ng-container>
+</table>
+<DIV>
+<DIV id="Run">
+<h2>Other Non-Ultra Distances</h2>
+<table border=1>
+<TR style='font-weight: bold' >
+  <TD >Race Name</TD>
+  <TD>PR Time</TD>
+  <TD style="align:center">Times Done</TD>
+  <TD style="align:left">Comment</TD>
+</TR> 
+<ng-container *ngFor="let race of racedata">
+ <ng-container *ngIf="race.racetype=='Run'"> 
+<TR>
+  <TD>{{ race.name}} {{ race.racetype }}  </TD>
+  <TD>{{ race.PR }}</TD>
+  <TD align="center">{{ race.count }} </TD>
+  <TD align="center">{{ race.comment }} </TD>
+</TR>
+</ng-container>
+</ng-container>
+</table>
+<DIV>  
+<DIV id="Triathlon">
+<h2>Triathlons</h2>
+<table border=1>
+<TR style='font-weight: bold' >
+  <TD >Race Name</TD>
+  <TD>PR Time</TD>
+  <TD style="align:center">Times Done</TD>
+  <TD style="align:left">Comment</TD>
+</TR> 
+<ng-container *ngFor="let race of racedata">
+ <ng-container *ngIf="race.racetype=='Triathlon'"> 
 <TR>
   <TD>{{ race.name}} {{ race.racetype }}  </TD>
   <TD>{{ race.PR }}</TD>
