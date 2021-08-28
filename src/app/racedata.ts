@@ -63,4 +63,5 @@ export var racedata =
  , { name:'1st Street 5k',PR:'18:41',count:6,racetype:'Run',comment:'' } 
  , { name:'Houston Marathon 5K',PR:'18:11',count:7,racetype:'Run',comment:''  }
 , { name:'No Label',PR:'1:01:41',count:6,racetype:'Triathlon',comment:''  }
+, { name:'Habanero Hundred 100 Mile Relay(4 Persons)',PR:'18:07:17',count:1,racetype:'Run',comment:''  }
 ];
