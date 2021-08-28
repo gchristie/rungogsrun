@@ -60,8 +60,18 @@ export var racedata =
  , { name:'Disney Princess',PR:'1:51:42',count:1,racetype:'HalfMarathon',comment:'with Catherine' } 
  , { name:'RNR Las Vegas',PR:'2:48:22',count:1,racetype:'HalfMarathon',comment:''  } 
  , { name:'Detroit Free Press',PR:'2:52:44',count:1,racetype:'HalfMarathon',comment:'after running 87 miles' } 
+ //Others
  , { name:'1st Street 5k',PR:'18:41',count:6,racetype:'Run',comment:'' } 
  , { name:'Houston Marathon 5K',PR:'18:11',count:7,racetype:'Run',comment:''  }
 , { name:'No Label',PR:'1:01:41',count:6,racetype:'Triathlon',comment:''  }
 , { name:'Habanero Hundred 100 Mile Relay(4 Persons)',PR:'18:07:17',count:1,racetype:'Run',comment:''  }
+, { name:'Ironman Texas',PR:'12:36:32',count:3,racetype:'Triathlon',comment:''  }
+, { name:'Ironman Texas 70.3',PR:'5:26:06',count:3,racetype:'Triathlon',comment:''  }
+, { name:'Oilman 70.3',PR:'5:43:02',count:1,racetype:'Triathlon',comment:''  }
+, { name:'Oktoberfest Olympic',PR:'2:15:02',count:3,racetype:'Triathlon',comment:''  }
+, { name:'Springs Back Olympic',PR:'2:30:19',count:2,racetype:'Triathlon',comment:''  }
+, { name:'Hot Chocolate 15K',PR:'1:04:05',count:1,racetype:'Run',comment:'2018 2nd Place'  }
+, { name:'Hot Chocolate 5K',PR:'26:00',count:1,racetype:'Run',comment:''  }
+, { name:'Rodeo Run 10K',PR:'42:20',count:2,racetype:'Run',comment:''  }
+, { name:'Run 4 the Children 4 Mile',PR:'23:36',count:8,racetype:'Run',comment:'2014 1st Place'  }
 ];
