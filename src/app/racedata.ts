@@ -3,7 +3,7 @@ export var racedata =
 //Upcoming Races
 
  
-  { name:'Houston Marathon',PR:'Finish',count:1,racetype:'UpcomingRace',comment:'01/15/2023'  }  
+  { name:'Houston Marathon [1 Virtual]',PR:'Finish',count:1,racetype:'UpcomingRace',comment:'01/15/2023'  }  
 //Ultra Marathons
 ,   { name:'Brazos Bend 50K',PR:'7:09:15',count:1,racetype:'UltraMarathon',comment:''  }  
  , { name:'Rocky Raccoon 50 Mile',PR:'7:41:39',count:1,racetype:'UltraMarathon',comment:'3rd Place Male 2013'  }  
