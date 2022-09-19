@@ -24,7 +24,7 @@ export var racedata =
  , { name:'RNR San Antonio',PR:'3:23:35',count :1,racetype:'Marathon',comment:'' }
  , { name:'Surfside Beach',PR:'3:43:18',count :1,racetype:'Marathon',comment:'' }
  , { name:'The Army',PR:'5:30:44',count :1,racetype:'Marathon',comment:'' }
- , { name:'Marine Corps',PR:'5:58:00',count :1,racetype:'Marathon',comment:'' } 
+ , { name:'Marine Corps',PR:'5:58:00',count :1,racetype:'Marathon',comment:'Marathon PW' } 
  //Virtual Marathons
  , { name:'Boston',PR:'',count:1,racetype:'VirtualMarathon',comment:''  }
  , { name:'London',PR:'',count:1,racetype:'VirtualMarathon',comment:''  }
