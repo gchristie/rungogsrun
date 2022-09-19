@@ -3,7 +3,7 @@ export var racedata =
 //Upcoming Races
 
  
-  { name:'Houston Marathon [1 Virtual]',PR:'Finish',count:1,racetype:'UpcomingRace',comment:'01/15/2023'  }  
+  { name:'Houston Marathon',PR:'Finish',count:1,racetype:'UpcomingRace',comment:'01/15/2023'  }  
 //Ultra Marathons
 ,   { name:'Brazos Bend 50K',PR:'7:09:15',count:1,racetype:'UltraMarathon',comment:''  }  
  , { name:'Rocky Raccoon 50 Mile',PR:'7:41:39',count:1,racetype:'UltraMarathon',comment:'3rd Place Male 2013'  }  
@@ -12,7 +12,7 @@ export var racedata =
  , { name:'Habanero Hunderd 50K',PR:'',count:1,racetype:'UltraMarathon',comment:''  }  
  , { name:'Habanero Hunderd 100K',PR:'',count:1,racetype:'UltraMarathon',comment:''  }   
  //Marathons
- , { name:'Houston',PR:'2:51:11',count:12,racetype:'Marathon',comment:'Marathon PR'  }
+ , { name:'Houston[1 Virtual]',PR:'2:51:11',count:12,racetype:'Marathon',comment:'Marathon PR'  }
  , { name:'Twin Cities',PR:'2:52:21',count :3,racetype:'Marathon',comment:'All 3 times under 3 hours' }
  , { name:'Moray',PR:'2:53:06',count :5,racetype:'Marathon',comment:''  }
  , { name:'Boston',PR:'2:58:40',count:10,racetype:'Marathon',comment:''  }
