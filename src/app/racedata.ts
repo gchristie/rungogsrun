@@ -32,7 +32,7 @@ export var racedata =
  , { name:'Marine Corps',PR:'',count:1,racetype:'VirtualMarathon',comment:''  }
  , { name:'Houston',PR:'',count:1,racetype:'VirtualMarathon',comment:''  }
  //Half Marathons
- , { name:'Houston',PR:'	1:20:56',count:7,racetype:'HalfMarathon',comment:'Half Marathon PR' } 
+ , { name:'Houston',PR:'	1:20:56',count:8,racetype:'HalfMarathon',comment:'Half Marathon PR' } 
  , { name:'RNR San Antonio',PR:'1:24:08',count:4,racetype:'HalfMarathon',comment:'' } 
  , { name:'Katy',PR:'1:24:11',count:2,racetype:'HalfMarathon',comment:'' }
  , { name:'Peterhead',PR:'1:24:21',count:1,racetype:'HalfMarathon',comment:'' } 
@@ -43,9 +43,9 @@ export var racedata =
  , { name:'Texas',PR:'1:26:44',count:2,racetype:'HalfMarathon',comment:'' } 
  , { name:'Clear Lake City',PR:'1:26:59',count:1,racetype:'HalfMarathon',comment:'1st Place' } 
  , { name:'Shiner',PR:'1:30:00',count:1,racetype:'HalfMarathon',comment:''  } 
- , { name:'Vintage Park',PR:'1:30:16',count:1,racetype:'HalfMarathon',comment:''  } 
+ , { name:'Vintage Park',PR:'1:30:16',count:2,racetype:'HalfMarathon',comment:''  } 
  , {  name:'The Woodlands',PR:'1:31:29',count:1,racetype:'HalfMarathon',comment:'' } 
- , { name:'La Porte',PR:'1:32:53',count:1,racetype:'HalfMarathon',comment:'' } 
+ , { name:'La Porte',PR:'1:32:53',count:2,racetype:'HalfMarathon',comment:'' } 
  , { name:'Biggest Loser',PR:'1:32:58',count:1,racetype:'HalfMarathon',comment:'' } 
  , { name:'RNR Dallas',PR:'1:33:18',count:1,racetype:'HalfMarathon',comment:''  } 
  ,  { name:'Surfside',PR:'1:34:38',count:1,racetype:'HalfMarathon',comment:''  } 
