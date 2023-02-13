@@ -41,8 +41,8 @@ export var racedata =
  , { name:'BCS',PR:'1:24:43',count:2,racetype:'HalfMarathon',comment:'' } 
  , { name:'La Porte',PR:'1:32:53',count:2,racetype:'HalfMarathon',comment:'' } 
  , { name:'Katy',PR:'1:24:11',count:2,racetype:'HalfMarathon',comment:'' }
- 
- , { name:'Texas',PR:'1:26:44',count:1,racetype:'HalfMarathon',comment:'' } 
+
+ , { name:'Texas',PR:'1:26:44',count:2,racetype:'HalfMarathon',comment:'' } 
  , { name:'Clear Lake City',PR:'1:26:59',count:1,racetype:'HalfMarathon',comment:'1st Place' } 
  , { name:'Shiner',PR:'1:30:00',count:1,racetype:'HalfMarathon',comment:''  } 
  , { name:'Because we care',PR:'1:25:09',count:1,racetype:'HalfMarathon',comment:'1st Place' } 
