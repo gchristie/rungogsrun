@@ -38,15 +38,15 @@ export var racedata =
  , { name:'Katy',PR:'1:24:11',count:3,racetype:'HalfMarathon',comment:'' }
  , { name:'Peterhead',PR:'1:24:21',count:1,racetype:'HalfMarathon',comment:'' } 
  , { name:'Angies Half Crazy',PR:'1:24:38',count:5,racetype:'HalfMarathon',comment:'' } 
- , { name:'Rhythm and Blues',PR:'1:24:40',count:1,racetype:'HalfMarathon',comment:'' } 
+ , { name:'Vintage Park',PR:'1:30:16',count:2,racetype:'HalfMarathon',comment:''  } 
  , { name:'BCS',PR:'1:24:43',count:2,racetype:'HalfMarathon',comment:'' } 
- , { name:'Because we care',PR:'1:25:09',count:1,racetype:'HalfMarathon',comment:'1st Place' } 
+ , { name:'La Porte',PR:'1:32:53',count:2,racetype:'HalfMarathon',comment:'' } 
  , { name:'Texas',PR:'1:26:44',count:2,racetype:'HalfMarathon',comment:'' } 
  , { name:'Clear Lake City',PR:'1:26:59',count:1,racetype:'HalfMarathon',comment:'1st Place' } 
  , { name:'Shiner',PR:'1:30:00',count:1,racetype:'HalfMarathon',comment:''  } 
- , { name:'Vintage Park',PR:'1:30:16',count:2,racetype:'HalfMarathon',comment:''  } 
+ , { name:'Because we care',PR:'1:25:09',count:1,racetype:'HalfMarathon',comment:'1st Place' } 
  , { name:'The Woodlands',PR:'1:31:29',count:1,racetype:'HalfMarathon',comment:'' } 
- , { name:'La Porte',PR:'1:32:53',count:2,racetype:'HalfMarathon',comment:'' } 
+ , { name:'Rhythm and Blues',PR:'1:24:40',count:1,racetype:'HalfMarathon',comment:'' } 
  , { name:'Biggest Loser',PR:'1:32:58',count:1,racetype:'HalfMarathon',comment:'' } 
  , { name:'RNR Dallas',PR:'1:33:18',count:1,racetype:'HalfMarathon',comment:''  } 
  , { name:'Surfside',PR:'1:34:38',count:1,racetype:'HalfMarathon',comment:''  } 
