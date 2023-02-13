@@ -35,7 +35,7 @@ export var racedata =
  //Half Marathons
  , { name:'Houston',PR:'	1:20:56',count:9,racetype:'HalfMarathon',comment:'Half Marathon PR' } 
  , { name:'RNR San Antonio',PR:'1:24:08',count:4,racetype:'HalfMarathon',comment:'' } 
- , { name:'Katy',PR:'1:24:11',count:3,racetype:'HalfMarathon',comment:'' }
+ , { name:'Katy',PR:'1:24:11',count:2,racetype:'HalfMarathon',comment:'' }
  , { name:'Angies Half Crazy',PR:'1:24:38',count:5,racetype:'HalfMarathon',comment:'' } 
  , { name:'Vintage Park',PR:'1:30:16',count:2,racetype:'HalfMarathon',comment:''  } 
  , { name:'BCS',PR:'1:24:43',count:2,racetype:'HalfMarathon',comment:'' } 
