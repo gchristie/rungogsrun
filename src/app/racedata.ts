@@ -36,7 +36,6 @@ export var racedata =
  , { name:'Houston',PR:'	1:20:56',count:10,racetype:'HalfMarathon',comment:'Half Marathon PR' } 
  , { name:'RNR San Antonio',PR:'1:24:08',count:4,racetype:'HalfMarathon',comment:'' } 
  , { name:'Katy',PR:'1:24:11',count:3,racetype:'HalfMarathon',comment:'' }
- , { name:'Peterhead',PR:'1:24:21',count:1,racetype:'HalfMarathon',comment:'' } 
  , { name:'Angies Half Crazy',PR:'1:24:38',count:5,racetype:'HalfMarathon',comment:'' } 
  , { name:'Vintage Park',PR:'1:30:16',count:2,racetype:'HalfMarathon',comment:''  } 
  , { name:'BCS',PR:'1:24:43',count:2,racetype:'HalfMarathon',comment:'' } 
@@ -60,6 +59,7 @@ export var racedata =
  , { name:'Disney Princess',PR:'1:51:42',count:1,racetype:'HalfMarathon',comment:'with Catherine' } 
  , { name:'RNR Las Vegas',PR:'2:48:22',count:1,racetype:'HalfMarathon',comment:''  } 
  , { name:'Detroit Free Press',PR:'2:52:44',count:1,racetype:'HalfMarathon',comment:'after running 87 miles' } 
+ , { name:'Peterhead',PR:'1:24:21',count:1,racetype:'HalfMarathon',comment:'' } 
  //Others
  , { name:'1st Street 5k',PR:'18:41',count:6,racetype:'Run',comment:'' } 
  , { name:'Houston Marathon 5K',PR:'18:11',count:7,racetype:'Run',comment:''  }
