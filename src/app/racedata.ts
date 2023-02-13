@@ -35,13 +35,11 @@ export var racedata =
  //Half Marathons
  , { name:'Houston',PR:'	1:20:56',count:9,racetype:'HalfMarathon',comment:'Half Marathon PR' } 
  , { name:'RNR San Antonio',PR:'1:24:08',count:5,racetype:'HalfMarathon',comment:'' } 
-
  , { name:'Angies Half Crazy',PR:'1:24:38',count:5,racetype:'HalfMarathon',comment:'' } 
  , { name:'Vintage Park',PR:'1:30:16',count:2,racetype:'HalfMarathon',comment:''  } 
  , { name:'BCS',PR:'1:24:43',count:2,racetype:'HalfMarathon',comment:'' } 
  , { name:'La Porte',PR:'1:32:53',count:2,racetype:'HalfMarathon',comment:'' } 
  , { name:'Katy',PR:'1:24:11',count:2,racetype:'HalfMarathon',comment:'' }
-
  , { name:'Texas',PR:'1:26:44',count:2,racetype:'HalfMarathon',comment:'' } 
  , { name:'Clear Lake City',PR:'1:26:59',count:1,racetype:'HalfMarathon',comment:'1st Place' } 
  , { name:'Shiner',PR:'1:30:00',count:1,racetype:'HalfMarathon',comment:''  } 
@@ -53,6 +51,7 @@ export var racedata =
  , { name:'Surfside',PR:'1:34:38',count:1,racetype:'HalfMarathon',comment:''  } 
  , { name:'Santa Hustle',PR:'1:34:55',count:1,racetype:'HalfMarathon',comment:'' } 
  , { name:'Love the Half',PR:'1:36:16',count:1,racetype:'HalfMarathon',comment:'' } 
+ , { name:'Night Moves Trail',PR:'2:02:22',count:1,racetype:'HalfMarathon',comment:'' } 
  , { name:'Moray',PR:'1:37:51',count:1,racetype:'HalfMarathon',comment:'' } 
  , { name:'Seabrook Lucky Trail',PR:'1:38:25',count:1,racetype:'HalfMarathon',comment:'' } 
  , { name:'Sugar & Spice',PR:'1:41:11',count:1,racetype:'HalfMarathon',comment:'Catherine finished in 1st place' } 
