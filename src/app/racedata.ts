@@ -5,13 +5,16 @@ export var racedata =
  
   { name:'The Woodlands Marathon',PR:'',count:1,racetype:'UpcomingRace',comment:'03/04/2023'  }  
 //Ultra Marathons
+, { name:'Snowdrop 100 Miles',PR:'',count:7,racetype:'UltraMarathon',comment:'3rd Place Male 2019'  }  
+, { name:'Run the Blades 50K',PR:'',count:2,racetype:'UltraMarathon',comment:''  }  
+ , { name:'Surfside 50K',PR:'',count:1,racetype:'UltraMarathon',comment:'2nd Place'}  
 ,  { name:'Brazos Bend 50K',PR:'7:09:15',count:1,racetype:'UltraMarathon',comment:''  }  
  , { name:'Rocky Raccoon 50 Mile',PR:'7:41:39',count:1,racetype:'UltraMarathon',comment:'3rd Place Male 2013'  }  
- , { name:'Snowdrop 100 Miles',PR:'',count:7,racetype:'UltraMarathon',comment:'3rd Place Male 2019'  }  
+
  , { name:'Brazos Bend 100 Miles',PR:'',count:1,racetype:'UltraMarathon',comment:''  }  
  , { name:'Habanero Hunderd 50K',PR:'',count:1,racetype:'UltraMarathon',comment:''  }  
  , { name:'Habanero Hunderd 100K',PR:'',count:1,racetype:'UltraMarathon',comment:''  }  
- , { name:'Run the Blades 50K',PR:'',count:2,racetype:'UltraMarathon',comment:''  }  
+ 
  //Marathons
  , { name:'Houston [+ 1 Virtual]',PR:'2:51:11',count:13,racetype:'Marathon',comment:'Marathon PR'  }
  , { name:'Boston  [+ 1 Virtual]',PR:'2:58:40',count:10,racetype:'Marathon',comment:''  }
