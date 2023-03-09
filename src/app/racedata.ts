@@ -16,10 +16,10 @@ export var racedata =
  , { name:'Habanero Hunderd 100K',PR:'',count:1,racetype:'UltraMarathon',comment:''  }  
  
  //Marathons
- , { name:'Houston [+ 1 Virtual]',PR:'2:51:11',count:13,racetype:'Marathon',comment:'Marathon PR'  }
- , { name:'Boston  [+ 1 Virtual]',PR:'2:58:40',count:10,racetype:'Marathon',comment:''  }
- , { name:'Moray',PR:'2:53:06',count :5,racetype:'Marathon',comment:''  }
+ , { name:'Houston',PR:'2:51:11',count:13,racetype:'Marathon',comment:'Marathon PR'  }
+ , { name:'Boston',PR:'2:58:40',count:10,racetype:'Marathon',comment:''  }
  , { name:'Seabrook',PR:'3:08:50',count :5,racetype:'Marathon',comment:'2012 1st Place'  }
+ , { name:'Moray',PR:'2:53:06',count :5,racetype:'Marathon',comment:''  }
  , { name:'The Woodlands',PR:'2:58:43',count :5,racetype:'Marathon',comment:'' } 
  , { name:'Twin Cities',PR:'2:52:21',count :3,racetype:'Marathon',comment:'All 3 times under 3 hours' }
  , { name:'BCS',PR:'3:04:14',count :3,racetype:'Marathon',comment:'' }
