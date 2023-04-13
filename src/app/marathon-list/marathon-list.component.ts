@@ -46,7 +46,7 @@ export class MarathonListComponent {
 
 
     if (racetype == 'UltraMarathon') 
-    { document.getElementById('UltraMarathon').hidden = false; }
+    { document.getElementById('Ultra Marathon').hidden = false; }
      if (racetype == 'Marathon') 
     { document.getElementById('Marathon').hidden = false; } 
      if (racetype == 'VirtualMarathon')    
