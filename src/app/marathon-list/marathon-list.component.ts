@@ -39,29 +39,29 @@ export class MarathonListComponent {
     document.getElementById('Run').hidden = true;
     document.getElementById('Triathlon').hidden = true;
 
-    if (racetype == 'Upcomin gRace')
-    { document.getElementById('Upcomin Race').hidden = false; } 
-    else if (racetype == 'Ultra Marathon') 
+    if (racetype == 'UpcomingRace')
+    { document.getElementById('UpcomingRace').hidden = false; } 
+    else if (racetype == 'UltraMarathon') 
     { document.getElementById('Ultra Marathon').hidden = false; }
     else if (racetype == 'Marathon') 
     { document.getElementById('Marathon').hidden = false; } 
-    else if (racetype == 'Virtual Marathon')    
-    { document.getElementById('Virtual Marathon').hidden = false; } 
-    else if (racetype == 'Half Marathon')
-    { document.getElementById('Half Marathon').hidden = false; } 
-    else if (racetype == 'Upcoming Race')
-    { document.getElementById('Upcoming Race').hidden = false; } 
+    else if (racetype == 'VirtualMarathon')    
+    { document.getElementById('VirtualMarathon').hidden = false; } 
+    else if (racetype == 'HalfMarathon')
+    { document.getElementById('HalfMarathon').hidden = false; } 
+    else if (racetype == 'UpcomingRace')
+    { document.getElementById('UpcomingRace').hidden = false; } 
     else if (racetype == 'Run')
     { document.getElementById('Run').hidden = false; } 
     else if (racetype == 'Triathlon')
     { document.getElementById('Triathlon').hidden = false; } 
     else
     {
-      document.getElementById('Ultra Marathon').hidden = false;
+      document.getElementById('UltraMarathon').hidden = false;
       document.getElementById('Marathon').hidden = false;
-      document.getElementById('Virtual Marathon').hidden = false;
-      document.getElementById('Half Marathon').hidden = false;
-      document.getElementById('Upcoming Race').hidden = false;
+      document.getElementById('VirtualMarathon').hidden = false;
+      document.getElementById('HalfMarathon').hidden = false;
+      document.getElementById('UpcomingRace').hidden = false;
       document.getElementById('Run').hidden = false;
       document.getElementById('Triathlon').hidden = false;    
     }
