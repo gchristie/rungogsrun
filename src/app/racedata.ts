@@ -54,6 +54,7 @@ export var racedata =
  , { name:'Detroit Free Press',PR:'2:52:44',count:1,racetype:'Half Marathon',comment:'after running 87 miles' } 
  , { name:'Peterhead',PR:'1:24:21',count:1,racetype:'Half Marathon',comment:'' } 
 //Virtual Marathons
+, { name:'GVRAT Tennessee 1000 Km',PR:'',count:3,racetype:'Virtual Marathon',comment:''  }
   , { name:'Boston',PR:'',count:1,racetype:'Virtual Marathon',comment:''  }
   , { name:'London',PR:'',count:1,racetype:'Virtual Marathon',comment:''  }
   , { name:'Marine Corps 50K',PR:'',count:1,racetype:'Virtual Marathon',comment:''  }
