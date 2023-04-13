@@ -42,7 +42,7 @@ export class MarathonListComponent {
     if (racetype == 'UpcomingRace')
     { document.getElementById('UpcomingRace').hidden = false; } 
     else if (racetype == 'UltraMarathon') 
-    { document.getElementById('Ultra Marathon').hidden = false; }
+    { document.getElementById('UltraMarathon').hidden = false; }
     else if (racetype == 'Marathon') 
     { document.getElementById('Marathon').hidden = false; } 
     else if (racetype == 'VirtualMarathon')    
