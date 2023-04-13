@@ -39,9 +39,8 @@ export class MarathonListComponent {
     document.getElementById('Run').hidden = true;
     document.getElementById('Triathlon').hidden = true;
 
-    if (racetype == 'UpcomingRace')
-    { document.getElementById('UpcomingRace').hidden = false; } 
-    else if (racetype == 'UltraMarathon') 
+
+    if (racetype == 'UltraMarathon') 
     { document.getElementById('UltraMarathon').hidden = false; }
     else if (racetype == 'Marathon') 
     { document.getElementById('Marathon').hidden = false; } 
@@ -55,6 +54,8 @@ export class MarathonListComponent {
     { document.getElementById('Run').hidden = false; } 
     else if (racetype == 'Triathlon')
     { document.getElementById('Triathlon').hidden = false; } 
+    elseif (racetype == 'UpcomingRace')
+    { document.getElementById('UpcomingRace').hidden = false; } 
     else
     {
       document.getElementById('UltraMarathon').hidden = false;
