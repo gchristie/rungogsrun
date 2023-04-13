@@ -18,7 +18,7 @@
   <TD style="align:left">Race Date</TD>
 </TR> 
 <ng-container *ngFor="let race of racedata">
- <ng-container *ngIf="race.racetype=='UpcomingRace'"> 
+ <ng-container *ngIf="race.racetype=='Upcoming Race'"> 
 <TR   >
   <TD >{{ race.name }} {{ race.racetype }} </TD>
   <TD>{{ race.PR }}</TD>
@@ -39,7 +39,7 @@
   <TD style="align:left">Comment</TD>
 </TR> 
 <ng-container *ngFor="let race of racedata">
- <ng-container *ngIf="race.racetype=='UltraMarathon'"> 
+ <ng-container *ngIf="race.racetype=='Ultra Marathon'"> 
 <TR   >
   <TD >{{ race.name }} {{ race.racetype }} </TD>
   <TD>{{ race.PR }}</TD>
@@ -83,7 +83,7 @@
   <TD style="align:left">Comment</TD>
 </TR> 
 <ng-container *ngFor="let race of racedata">
- <ng-container *ngIf="race.racetype=='VirtualMarathon'"> 
+ <ng-container *ngIf="race.racetype=='Virtual Marathon'"> 
 <TR   >
   <TD >{{ race.name }} {{ race.racetype }} </TD>
   <TD>{{ race.PR }}</TD>
@@ -104,7 +104,7 @@
   <TD style="align:left">Comment</TD>
 </TR> 
 <ng-container *ngFor="let race of racedata">
- <ng-container *ngIf="race.racetype=='HalfMarathon'"> 
+ <ng-container *ngIf="race.racetype=='Half Marathon'"> 
 <TR>
   <TD>{{ race.name}} {{ race.racetype }}  </TD>
   <TD>{{ race.PR }}</TD>
