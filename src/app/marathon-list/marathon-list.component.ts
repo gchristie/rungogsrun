@@ -36,11 +36,11 @@ export class MarathonListComponent {
     document.getElementById('VirtualMarathon').hidden = true;
     document.getElementById('HalfMarathon').hidden = true;
     document.getElementById('UpcomingRace').hidden = true;
-    document.getElementById('5K').hidden = true;
-    document.getElementById('4Mile').hidden = true;   
-    document.getElementById('10K').hidden = true;
-    document.getElementById('25K').hidden = true;
-    document.getElementById('30K').hidden = true;
+    //document.getElementById('5K').hidden = true;
+    //document.getElementById('4Mile').hidden = true;   
+    //document.getElementById('10K').hidden = true;
+    //document.getElementById('25K').hidden = true;
+    //document.getElementById('30K').hidden = true;
     document.getElementById('Run').hidden = true;
     document.getElementById('Triathlon').hidden = true;
 
