@@ -1,11 +1,11 @@
 export var racedata = 
 [ 
-//Upcoming Races
+
 
  
  
  //Marathons
- , { name:'Houston',PR:'2:51:11',count:13,racetype:'Marathon',comment:'Marathon PR'  }
+   { name:'Houston',PR:'2:51:11',count:13,racetype:'Marathon',comment:'Marathon PR'  }
  , { name:'Boston',PR:'2:58:40',count:10,racetype:'Marathon',comment:''  }
  , { name:'Seabrook',PR:'3:08:50',count :6,racetype:'Marathon',comment:'2012 1st Place'  }
  , { name:'Moray',PR:'2:53:06',count :5,racetype:'Marathon',comment:''  }
@@ -78,7 +78,7 @@ export var racedata =
 , { name:'Surfside 50K',PR:'',count:1,racetype:'Ultra Marathon',comment:'2nd Place'}  
 , { name:'Brazos Bend 50K',PR:'7:09:15',count:1,racetype:'Ultra Marathon',comment:''  }  
 , { name:'Rocky Raccoon 50 Mile',PR:'7:41:39',count:1,racetype:'Ultra Marathon',comment:'3rd Place Male 2013'  }  
-
+//Upcoming Races
 , { name:'Brazos Bend 100 Miles',PR:'',count:1,racetype:'Ultra Marathon',comment:''  }  
 , { name:'Habanero Hunderd 50K',PR:'',count:1,racetype:'Ultra Marathon',comment:''  }  
 , { name:'Habanero Hunderd 100K',PR:'',count:1,racetype:'Ultra Marathon',comment:''  } 
