@@ -2,21 +2,7 @@ export var racedata =
 [ 
 //Upcoming Races
 
-  { name:'No Label 5K',PR:'',count:1,racetype:'Upcoming Race',comment:'06/17/2023'  } 
-,
-  { name:'GVRAT Tennessee 1000 Km',PR:'',count:1,racetype:'Upcoming Race',comment:'05/01/2023'  } 
-  ,  { name:'Marine Corps 50K',PR:'',count:1,racetype:'Upcoming Race',comment:'10/29/2023'  } 
-  ,   { name:'Snowdrop 100 Miles',PR:'',count:1,racetype:'Upcoming Race',comment:'12/30/2023'  }   
-//Ultra Marathons
-, { name:'Snowdrop 100 Miles',PR:'',count:7,racetype:'Ultra Marathon',comment:'3rd Place Male 2019'  }  
-, { name:'Run the Blades 50K',PR:'',count:2,racetype:'Ultra Marathon',comment:''  }  
- , { name:'Surfside 50K',PR:'',count:1,racetype:'Ultra Marathon',comment:'2nd Place'}  
-,  { name:'Brazos Bend 50K',PR:'7:09:15',count:1,racetype:'Ultra Marathon',comment:''  }  
- , { name:'Rocky Raccoon 50 Mile',PR:'7:41:39',count:1,racetype:'Ultra Marathon',comment:'3rd Place Male 2013'  }  
-
- , { name:'Brazos Bend 100 Miles',PR:'',count:1,racetype:'Ultra Marathon',comment:''  }  
- , { name:'Habanero Hunderd 50K',PR:'',count:1,racetype:'Ultra Marathon',comment:''  }  
- , { name:'Habanero Hunderd 100K',PR:'',count:1,racetype:'Ultra Marathon',comment:''  }  
+ 
  
  //Marathons
  , { name:'Houston',PR:'2:51:11',count:13,racetype:'Marathon',comment:'Marathon PR'  }
@@ -81,4 +67,19 @@ export var racedata =
 , { name:'Hot Chocolate 5K',PR:'26:00',count:1,racetype:'Run',comment:''  }
 , { name:'Rodeo Run 10K',PR:'42:20',count:2,racetype:'Run',comment:''  }
 , { name:'Run 4 the Children 4 Mile',PR:'23:36',count:8,racetype:'Run',comment:'2014 1st Place'  }
+
+,{ name:'No Label 5K',PR:'',count:1,racetype:'Upcoming Race',comment:'06/17/2023'  } 
+,  { name:'GVRAT Tennessee 1000 Km',PR:'',count:1,racetype:'Upcoming Race',comment:'05/01/2023'  } 
+,  { name:'Marine Corps 50K',PR:'',count:1,racetype:'Upcoming Race',comment:'10/29/2023'  } 
+,  { name:'Snowdrop 100 Miles',PR:'',count:1,racetype:'Upcoming Race',comment:'12/30/2023'  }   
+//Ultra Marathons
+, { name:'Snowdrop 100 Miles',PR:'',count:7,racetype:'Ultra Marathon',comment:'3rd Place Male 2019'  }  
+, { name:'Run the Blades 50K',PR:'',count:2,racetype:'Ultra Marathon',comment:''  }  
+, { name:'Surfside 50K',PR:'',count:1,racetype:'Ultra Marathon',comment:'2nd Place'}  
+, { name:'Brazos Bend 50K',PR:'7:09:15',count:1,racetype:'Ultra Marathon',comment:''  }  
+, { name:'Rocky Raccoon 50 Mile',PR:'7:41:39',count:1,racetype:'Ultra Marathon',comment:'3rd Place Male 2013'  }  
+
+, { name:'Brazos Bend 100 Miles',PR:'',count:1,racetype:'Ultra Marathon',comment:''  }  
+, { name:'Habanero Hunderd 50K',PR:'',count:1,racetype:'Ultra Marathon',comment:''  }  
+, { name:'Habanero Hunderd 100K',PR:'',count:1,racetype:'Ultra Marathon',comment:''  } 
 ];
