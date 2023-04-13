@@ -47,7 +47,7 @@ export class MarathonListComponent {
     else if (racetype == 'Virtual Marathon')    
     { document.getElementById('VirtualMarathon').hidden = false; } 
     else if (racetype == 'Half Marathon')
-    { document.getElementById('Half Marathon').hidden = false; } 
+    { document.getElementById('HalfMarathon').hidden = false; } 
     else if (racetype == 'UpcomingRace')
     { document.getElementById('UpcomingRace').hidden = false; } 
     else if (racetype == 'Run')
