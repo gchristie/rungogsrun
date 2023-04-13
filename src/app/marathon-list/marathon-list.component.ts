@@ -40,7 +40,7 @@ export class MarathonListComponent {
     document.getElementById('Triathlon').hidden = true;
 
 
-    if (racetype == 'UltraMarathon') 
+    if (racetype == 'Ultra Marathon') 
     { document.getElementById('UltraMarathon').hidden = false; }
     else if (racetype == 'Marathon') 
     { document.getElementById('Marathon').hidden = false; } 
