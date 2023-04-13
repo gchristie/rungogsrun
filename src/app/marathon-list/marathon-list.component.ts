@@ -54,7 +54,7 @@ export class MarathonListComponent {
      if (racetype == 'HalfMarathon')
     { document.getElementById('HalfMarathon').hidden = false; } 
      if (racetype == 'UpcomingRace')
-    { document.getElementById('Upcoming Race').hidden = false; } 
+    { document.getElementById('UpcomingRace').hidden = false; } 
    // else if (racetype == '5K')
    // { document.getElementById('5K').hidden = false; } 
    // else if (racetype == '4Mile')
