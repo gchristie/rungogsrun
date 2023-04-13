@@ -31,11 +31,11 @@ export class MarathonListComponent {
 
   ShowTab(racetype) 
   {
-    document.getElementById('Ultra Marathon').hidden = true;
+    document.getElementById('UltraMarathon').hidden = true;
     document.getElementById('Marathon').hidden = true;
-    document.getElementById('Virtual Marathon').hidden = true;
-    document.getElementById('Half Marathon').hidden = true;
-    document.getElementById('Upcoming Race').hidden = true;
+    document.getElementById('VirtualMarathon').hidden = true;
+    document.getElementById('HalfMarathon').hidden = true;
+    document.getElementById('UpcomingRace').hidden = true;
     document.getElementById('Run').hidden = true;
     document.getElementById('Triathlon').hidden = true;
 
