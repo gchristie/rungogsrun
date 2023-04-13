@@ -31,6 +31,10 @@ export class MarathonListComponent {
 
   ShowTab(racetype) 
   {
+
+
+//alert(racetype);
+
     document.getElementById('UltraMarathon').hidden = true;
     document.getElementById('Marathon').hidden = true;
     document.getElementById('VirtualMarathon').hidden = true;
