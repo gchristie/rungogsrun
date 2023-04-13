@@ -40,11 +40,11 @@ export class MarathonListComponent {
     document.getElementById('Triathlon').hidden = true;
 
 
-    if (racetype == 'UltraMarathon') 
-    { document.getElementById('UltraMarathon').hidden = false; }
+    if (racetype == 'Ultra Marathon') 
+    { document.getElementById('Ultra Marathon').hidden = false; }
     else if (racetype == 'Marathon') 
     { document.getElementById('Marathon').hidden = false; } 
-    else if (racetype == 'VirtualMarathon')    
+    else if (racetype == 'Virtual Marathon')    
     { document.getElementById('VirtualMarathon').hidden = false; } 
     else if (racetype == 'HalfMarathon')
     { document.getElementById('HalfMarathon').hidden = false; } 
