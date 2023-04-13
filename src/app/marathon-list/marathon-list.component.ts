@@ -36,51 +36,47 @@ export class MarathonListComponent {
     document.getElementById('VirtualMarathon').hidden = true;
     document.getElementById('HalfMarathon').hidden = true;
     document.getElementById('UpcomingRace').hidden = true;
-    //document.getElementById('5K').hidden = true;
-    //document.getElementById('4Mile').hidden = true;   
-    //document.getElementById('10K').hidden = true;
-    //document.getElementById('25K').hidden = true;
-    //document.getElementById('30K').hidden = true;
+    document.getElementById('5K').hidden = true;
+    document.getElementById('4Mile').hidden = true;   
+    document.getElementById('10K').hidden = true;
+    document.getElementById('25K').hidden = true;
+    document.getElementById('30K').hidden = true;
     document.getElementById('Run').hidden = true;
     document.getElementById('Triathlon').hidden = true;
 
 
+
+
+
+
     if (racetype == 'Ultra Marathon') 
     { document.getElementById('UltraMarathon').hidden = false; }
-    else if (racetype == 'Marathon') 
+     if (racetype == 'Marathon') 
     { document.getElementById('Marathon').hidden = false; } 
-    else if (racetype == 'Virtual Marathon')    
+     if (racetype == 'Virtual Marathon')    
     { document.getElementById('VirtualMarathon').hidden = false; } 
-    else if (racetype == 'Half Marathon')
+     if (racetype == 'Half Marathon')
     { document.getElementById('HalfMarathon').hidden = false; } 
-    else if (racetype == 'UpcomingRace')
+     if (racetype == 'UpcomingRace')
     { document.getElementById('Upcoming Race').hidden = false; } 
-   // else if (racetype == '5K')
+   //  if (racetype == '5K')
    // { document.getElementById('5K').hidden = false; } 
-   // else if (racetype == '4Mile')
+   //  if (racetype == '4Mile')
   //  { document.getElementById('4Mile').hidden = false; } 
-  //  else if (racetype == '10K')
+  //   if (racetype == '10K')
   //  { document.getElementById('10K').hidden = false; } 
-   // else if (racetype == '25K')
+   //  if (racetype == '25K')
    // { document.getElementById('25K').hidden = false; } 
-  //  else if (racetype == '30K')
+  //   if (racetype == '30K')
    // { document.getElementById('30K').hidden = false; } 
-    else if (racetype == 'Run')
+     if (racetype == 'Run')
     { document.getElementById('Run').hidden = false; } 
-    else if (racetype == 'Triathlon')
+     if (racetype == 'Triathlon')
     { document.getElementById('Triathlon').hidden = false; } 
-    else if (racetype == 'Upcoming Race')
+    if (racetype == 'Upcoming Race')
     { document.getElementById('UpcomingRace').hidden = false; } 
-    else
-    {
-      document.getElementById('UltraMarathon').hidden = false;
-      document.getElementById('Marathon').hidden = false;
-      document.getElementById('VirtualMarathon').hidden = false;
-      document.getElementById('HalfMarathon').hidden = false;
-      document.getElementById('Run').hidden = false;
-      document.getElementById('Triathlon').hidden = false;    
-      document.getElementById('UpcomingRace').hidden = false;  
-    }
+
+
   }
   
 }
