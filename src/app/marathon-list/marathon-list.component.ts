@@ -46,22 +46,11 @@ export class MarathonListComponent {
 
 
     if (racetype == 'UltraMarathon') 
-    { document.getElementById('Ultra Marathon').hidden = false; }
+    { document.getElementById('UltraMarathon').hidden = false; }
      if (racetype == 'Marathon') 
     { document.getElementById('Marathon').hidden = false; } 
      if (racetype == 'HalfMarathon')
     { document.getElementById('HalfMarathon').hidden = false; } 
-   // else if (racetype == '5K')
-   // { document.getElementById('5K').hidden = false; } 
-   // else if (racetype == '4Mile')
-  //  { document.getElementById('4Mile').hidden = false; } 
-  //  else if (racetype == '10K')
-  //  { document.getElementById('10K').hidden = false; } 
-   // else if (racetype == '25K')
-   // { document.getElementById('25K').hidden = false; } 
-  //  else if (racetype == '30K')
-   // { document.getElementById('30K').hidden = false; } 
-
     else
     {
       document.getElementById('UltraMarathon').hidden = false;
