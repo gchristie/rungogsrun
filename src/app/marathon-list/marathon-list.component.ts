@@ -59,7 +59,7 @@ export class MarathonListComponent {
     {
       document.getElementById('Ultra Marathon').hidden = false;
       document.getElementById('Marathon').hidden = false;
-      document.getElementById('Virtua lMarathon').hidden = false;
+      document.getElementById('Virtual Marathon').hidden = false;
       document.getElementById('Half Marathon').hidden = false;
       document.getElementById('Run').hidden = false;
       document.getElementById('Triathlon').hidden = false;    
