@@ -54,7 +54,7 @@ export class MarathonListComponent {
     { document.getElementById('Run').hidden = false; } 
     else if (racetype == 'Triathlon')
     { document.getElementById('Triathlon').hidden = false; } 
-    elseif (racetype == 'UpcomingRace')
+    else if (racetype == 'UpcomingRace')
     { document.getElementById('UpcomingRace').hidden = false; } 
     else
     {
