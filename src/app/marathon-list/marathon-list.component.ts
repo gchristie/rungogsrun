@@ -57,13 +57,13 @@ export class MarathonListComponent {
     { document.getElementById('Triathlon').hidden = false; } 
     else
     {
-      document.getElementById('UltraMarathon').hidden = false;
+      document.getElementById('Ultra Marathon').hidden = false;
       document.getElementById('Marathon').hidden = false;
-      document.getElementById('VirtualMarathon').hidden = false;
-      document.getElementById('HalfMarathon').hidden = false;
-      document.getElementById('UpcomingRace').hidden = false;
+      document.getElementById('Virtua lMarathon').hidden = false;
+      document.getElementById('Half Marathon').hidden = false;
       document.getElementById('Run').hidden = false;
       document.getElementById('Triathlon').hidden = false;    
+      document.getElementById('Upcoming Race').hidden = false;  
     }
   }
   
