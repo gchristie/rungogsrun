@@ -41,12 +41,12 @@ export class MarathonListComponent {
 
 
     if (racetype == 'Ultra Marathon') 
-    { document.getElementById('Ultra Marathon').hidden = false; }
+    { document.getElementById('UltraMarathon').hidden = false; }
     else if (racetype == 'Marathon') 
     { document.getElementById('Marathon').hidden = false; } 
     else if (racetype == 'Virtual Marathon')    
     { document.getElementById('VirtualMarathon').hidden = false; } 
-    else if (racetype == 'HalfMarathon')
+    else if (racetype == 'Half Marathon')
     { document.getElementById('HalfMarathon').hidden = false; } 
     else if (racetype == 'Upcoming Race')
     { document.getElementById('UpcomingRace').hidden = false; } 
@@ -54,7 +54,7 @@ export class MarathonListComponent {
     { document.getElementById('Run').hidden = false; } 
     else if (racetype == 'Triathlon')
     { document.getElementById('Triathlon').hidden = false; } 
-    else if (racetype == 'UpcomingRace')
+    else if (racetype == 'Upcoming Race')
     { document.getElementById('UpcomingRace').hidden = false; } 
     else
     {
