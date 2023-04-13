@@ -49,12 +49,12 @@ export class MarathonListComponent {
     else if (racetype == 'Half Marathon')
     { document.getElementById('HalfMarathon').hidden = false; } 
     else if (racetype == 'UpcomingRace')
-    { document.getElementById('UpcomingRace').hidden = false; } 
+    { document.getElementById('Upcoming Race').hidden = false; } 
     else if (racetype == 'Run')
     { document.getElementById('Run').hidden = false; } 
     else if (racetype == 'Triathlon')
     { document.getElementById('Triathlon').hidden = false; } 
-    else if (racetype == 'UpcomingRace')
+    else if (racetype == 'Upcoming Race')
     { document.getElementById('UpcomingRace').hidden = false; } 
     else
     {
