@@ -3,7 +3,9 @@ export var racedata =
 //Upcoming Races
 
  
-  { name:'The Woodlands Marathon',PR:'',count:1,racetype:'UpcomingRace',comment:'03/04/2023'  }  
+  { name:'GVRAT 100KK',PR:'',count:1,racetype:'UpcomingRace',comment:'05/01/2023'  } 
+  ,  { name:'Marine Corps 50K',PR:'',count:1,racetype:'UpcomingRace',comment:'10/29/2023'  } 
+  ,   { name:'Snowdrop 100 Miles',PR:'',count:1,racetype:'UpcomingRace',comment:'12/30/2023'  }   
 //Ultra Marathons
 , { name:'Snowdrop 100 Miles',PR:'',count:7,racetype:'UltraMarathon',comment:'3rd Place Male 2019'  }  
 , { name:'Run the Blades 50K',PR:'',count:2,racetype:'UltraMarathon',comment:''  }  
