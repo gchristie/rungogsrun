@@ -50,7 +50,7 @@ export var racedata =
  , { name:'Aramco Houston',PR:'1:46:56',count:1,racetype:'Half Marathon',comment:'1st Half Marathon' } 
  , { name:'Dusk to Dawn',PR:'1:50:50',count:1,racetype:'Half Marathon',comment:'ran woodlands Marathon in morning' } 
  , { name:'Disney Princess',PR:'1:51:42',count:1,racetype:'Half Marathon',comment:'with Catherine' } 
- , { name:'RNR Las Vegas',PR:'2:48:22',count:1,racetype:'Half Marathon',comment:''  } 
+ , { name:'RNR Las Vegas',PR:'2:48:22',count:1,racetype:'Half Marathon',comment:'Married Rosa at Mile 3'  } 
  , { name:'Detroit Free Press',PR:'2:52:44',count:1,racetype:'Half Marathon',comment:'after running 87 miles' } 
  , { name:'Peterhead',PR:'1:24:21',count:1,racetype:'Half Marathon',comment:'' } 
 //Virtual Marathons
