@@ -29,7 +29,27 @@
 </table>
 </DIV>
 
-
+<DIV id="UltraMarathon">
+<h2>Ultra Marathons</h2>
+<table border=1>
+<TR style='font-weight: bold' >
+  <TD >Race Name</TD>
+  <TD>PR Time</TD>
+  <TD>Times Done</TD>
+  <TD style="align:left">Comment</TD>
+</TR> 
+<ng-container *ngFor="let race of racedata">
+ <ng-container *ngIf="race.racetype=='Ultra Marathon'"> 
+<TR   >
+  <TD >{{ race.name }} {{ race.racetype }} </TD>
+  <TD>{{ race.PR }}</TD>
+  <TD align="center">{{ race.count }} </TD>
+  <TD align="center">{{ race.comment }} </TD>
+</TR>
+</ng-container>
+</ng-container>
+</table>
+</DIV>
 
 <DIV id="Marathon">
 <h2>Marathons</h2>
@@ -211,49 +231,8 @@
     </table>
   <DIV> 
   
-  <DIV id="50K">
-  <h2>50K Distances</h2>
-  <table border=1>
-  <TR style='font-weight: bold' >
-    <TD >Race Name</TD>
-    <TD>PR Time</TD>
-    <TD style="align:center">Times Done</TD>
-    <TD style="align:left">Comment</TD>
-  </TR> 
-  <ng-container *ngFor="let race of racedata">
-    <ng-container *ngIf="race.racetype=='50K'"> 
-  <TR>
-    <TD>{{ race.name}} {{ race.racetype }}  </TD>
-    <TD>{{ race.PR }}</TD>
-    <TD align="center">{{ race.count }} </TD>
-    <TD align="center">{{ race.comment }} </TD>
-  </TR>
-  </ng-container>
-  </ng-container>
-  </table>
-<DIV> 
 
-<DIV id="100K">
-<h2>100K Distances</h2>
-<table border=1>
-<TR style='font-weight: bold' >
-  <TD >Race Name</TD>
-  <TD>PR Time</TD>
-  <TD style="align:center">Times Done</TD>
-  <TD style="align:left">Comment</TD>
-</TR> 
-<ng-container *ngFor="let race of racedata">
-  <ng-container *ngIf="race.racetype=='100K'"> 
-<TR>
-  <TD>{{ race.name}} {{ race.racetype }}  </TD>
-  <TD>{{ race.PR }}</TD>
-  <TD align="center">{{ race.count }} </TD>
-  <TD align="center">{{ race.comment }} </TD>
-</TR>
-</ng-container>
-</ng-container>
-</table>
-<DIV> 
+
 
 
     <DIV id="Relay">
@@ -300,29 +279,6 @@
 </ng-container>
 </table>
 <DIV>
-
-<DIV id="100Mile">
-<h2>100 Mile</h2>
-<table border=1>
-<TR style='font-weight: bold' >
-  <TD >Race Name</TD>
-  <TD>PR Time</TD>
-  <TD>Times Done</TD>
-  <TD style="align:left">Comment</TD>
-</TR> 
-<ng-container *ngFor="let race of racedata">
- <ng-container *ngIf="race.racetype=='100Mile'"> 
-<TR   >
-  <TD >{{ race.name }} {{ race.racetype }} </TD>
-  <TD>{{ race.PR }}</TD>
-  <TD align="center">{{ race.count }} </TD>
-  <TD align="center">{{ race.comment }} </TD>
-</TR>
-</ng-container>
-</ng-container>
-</table>
-</DIV>
-
 
 
 <DIV id="VirtualMarathon">

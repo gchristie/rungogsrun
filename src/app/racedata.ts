@@ -1,15 +1,25 @@
 export var racedata = 
 [ 
-//UltraMarathons
+//100 Mile
  { name:'Snowdrop 100 Miles',PR:'21:59:07',count:7,racetype:'Ultra Marathon',comment:'3rd Place Male 2019'  }  
+ , { name:'Brazos Bend 100 Miles',PR:'19:06:54',count:1,racetype:'Ultra Marathon',comment:''  }
+
+//50K
 , { name:'Run the Blades 50K',PR:'5:16:15',count:2,racetype:'Ultra Marathon',comment:''  }  
 , { name:'Surfside 50K',PR:'3:37:52',count:1,racetype:'Ultra Marathon',comment:'2nd Place'}  
 , { name:'Brazos Bend 50K',PR:'7:09:15',count:1,racetype:'Ultra Marathon',comment:''  }  
+, { name:'Habanero Hunderd 50K',PR:'7:25:51',count:1,racetype:'Ultra Marathon',comment:''  } 
+
+
+
+//50 Mile
 , { name:'Rocky Raccoon 50 Mile',PR:'7:41:39',count:1,racetype:'Ultra Marathon',comment:'3rd Place Male 2013'  }  
-, { name:'Brazos Bend 100 Miles',PR:'19:06:54',count:1,racetype:'Ultra Marathon',comment:''  }
 , { name:'Brazos Bend 50 Miles',PR:'10:55:07',count:1,racetype:'Ultra Marathon',comment:''  }   
-, { name:'Habanero Hunderd 50K',PR:'7:25:51',count:1,racetype:'Ultra Marathon',comment:''  }  
+
+//100K
 , { name:'Habanero Hunderd 100K',PR:'11:27:57',count:1,racetype:'Ultra Marathon',comment:''  } 
+
+
  //Marathons
  ,  { name:'Houston',PR:'2:51:11',count:13,racetype:'Marathon',comment:'Marathon PR'  }
  , { name:'Boston',PR:'2:58:40',count:10,racetype:'Marathon',comment:''  }
@@ -53,23 +63,33 @@ export var racedata =
  , { name:'RNR Las Vegas',PR:'2:48:22',count:1,racetype:'Half Marathon',comment:'Married Rosa at Mile 3'  } 
  , { name:'Detroit Free Press',PR:'2:52:44',count:1,racetype:'Half Marathon',comment:'after running 87 miles' } 
  , { name:'Peterhead',PR:'1:24:21',count:1,racetype:'Half Marathon',comment:'' } 
-//Virtual Marathons
+
+ //Virtual Marathons
 , { name:'GVRAT Tennessee 1000 Km',PR:'',count:3,racetype:'Virtual Marathon',comment:''  }
   , { name:'Boston',PR:'',count:1,racetype:'Virtual Marathon',comment:''  }
   , { name:'London',PR:'',count:1,racetype:'Virtual Marathon',comment:''  }
   , { name:'Marine Corps 50K',PR:'',count:1,racetype:'Virtual Marathon',comment:''  }
   , { name:'Marine Corps',PR:'',count:1,racetype:'Virtual Marathon',comment:''  }
   , { name:'Houston',PR:'',count:1,racetype:'Virtual Marathon',comment:''  }
- //5K
+ 
+  //5K
 , { name:'No Label',PR:'18:41',count:6,racetype:'5K',comment:'' } 
 , { name:'Houston',PR:'18:11',count:7,racetype:'5K',comment:''  }
 , { name:'Hot Chocolate 5K',PR:'26:00',count:1,racetype:'5K',comment:''  }
+
 //10K
 , { name:'Rodeo Run 10K',PR:'42:20',count:2,racetype:'10K',comment:''  }
+
 //15K
 , { name:'Hot Chocolate 15K',PR:'1:04:05',count:4,racetype:'15K',comment:'2018 2nd Place'  }
+
 //4 Mile
 , { name:'Run 4 the Children 4 Mile',PR:'23:36',count:8,racetype:'4 Mile',comment:'2014 1st Place'  }
+
+
+
+
+
 //Triathlon
 , { name:'No Label',PR:'1:01:41',count:6,racetype:'Triathlon',comment:''  }
 , { name:'Ironman Texas',PR:'12:36:32',count:3,racetype:'Triathlon',comment:''  }

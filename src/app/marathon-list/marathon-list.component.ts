@@ -45,7 +45,7 @@ export class MarathonListComponent {
     //document.getElementById('10K').hidden = true;
     //document.getElementById('25K').hidden = true;
     //document.getElementById('30K').hidden = true;
-    document.getElementById('Run').hidden = true;
+   //document.getElementById('Run').hidden = true;
     document.getElementById('Triathlon').hidden = true;
 
 
@@ -61,7 +61,7 @@ export class MarathonListComponent {
       document.getElementById('Marathon').hidden = false;
       document.getElementById('VirtualMarathon').hidden = false;
       document.getElementById('HalfMarathon').hidden = false;     
-      document.getElementById('Run').hidden = false;
+      //document.getElementById('Run').hidden = false;
       document.getElementById('Triathlon').hidden = false;    
       document.getElementById('UpcomingRace').hidden = false;  
     }
