@@ -7,7 +7,8 @@ export var racedata =
 , { name:'Surfside 50K',PR:'',count:1,racetype:'Ultra Marathon',comment:'2nd Place'}  
 , { name:'Brazos Bend 50K',PR:'7:09:15',count:1,racetype:'Ultra Marathon',comment:''  }  
 , { name:'Rocky Raccoon 50 Mile',PR:'7:41:39',count:1,racetype:'Ultra Marathon',comment:'3rd Place Male 2013'  }  
-, { name:'Brazos Bend 100 Miles',PR:'',count:1,racetype:'Ultra Marathon',comment:''  }  
+, { name:'Brazos Bend 100 Miles',PR:'',count:1,racetype:'Ultra Marathon',comment:''  }
+, { name:'Brazos Bend 50 Miles',PR:'',count:1,racetype:'Ultra Marathon',comment:''  }   
 , { name:'Habanero Hunderd 50K',PR:'',count:1,racetype:'Ultra Marathon',comment:''  }  
 , { name:'Habanero Hunderd 100K',PR:'',count:1,racetype:'Ultra Marathon',comment:''  } 
  //Marathons
