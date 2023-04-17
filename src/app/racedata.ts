@@ -1,6 +1,5 @@
 export var racedata = 
 [ 
-
 //UltraMarathons
  { name:'Snowdrop 100 Miles',PR:'',count:7,racetype:'Ultra Marathon',comment:'3rd Place Male 2019'  }  
 , { name:'Run the Blades 50K',PR:'',count:2,racetype:'Ultra Marathon',comment:''  }  
@@ -61,23 +60,27 @@ export var racedata =
   , { name:'Marine Corps 50K',PR:'',count:1,racetype:'Virtual Marathon',comment:''  }
   , { name:'Marine Corps',PR:'',count:1,racetype:'Virtual Marathon',comment:''  }
   , { name:'Houston',PR:'',count:1,racetype:'Virtual Marathon',comment:''  }
- //Run
-, { name:'1st Street 5k',PR:'18:41',count:6,racetype:'Run',comment:'' } 
-, { name:'Houston Marathon 5K',PR:'18:11',count:7,racetype:'Run',comment:''  }
-, { name:'Habanero Hundred 100 Mile Relay(4 Persons)',PR:'18:07:17',count:1,racetype:'Run',comment:''  }
-, { name:'Hot Chocolate 15K',PR:'1:04:05',count:1,racetype:'Run',comment:'2018 2nd Place'  }
-, { name:'Hot Chocolate 5K',PR:'26:00',count:1,racetype:'Run',comment:''  }
-, { name:'Rodeo Run 10K',PR:'42:20',count:2,racetype:'Run',comment:''  }
-, { name:'Run 4 the Children 4 Mile',PR:'23:36',count:8,racetype:'Run',comment:'2014 1st Place'  }
+ //5K
+, { name:'No Label',PR:'18:41',count:6,racetype:'5K',comment:'' } 
+, { name:'Houston',PR:'18:11',count:7,racetype:'5K',comment:''  }
+, { name:'Hot Chocolate 5K',PR:'26:00',count:1,racetype:'5K',comment:''  }
+//10K
+, { name:'Rodeo Run 10K',PR:'42:20',count:2,racetype:'10K',comment:''  }
+//15K
+, { name:'Hot Chocolate 15K',PR:'1:04:05',count:4,racetype:'15K',comment:'2018 2nd Place'  }
+//4 Mile
+, { name:'Run 4 the Children 4 Mile',PR:'23:36',count:8,racetype:'4 Mile',comment:'2014 1st Place'  }
 //Triathlon
 , { name:'No Label',PR:'1:01:41',count:6,racetype:'Triathlon',comment:''  }
 , { name:'Ironman Texas',PR:'12:36:32',count:3,racetype:'Triathlon',comment:''  }
 , { name:'Ironman Texas 70.3',PR:'5:26:06',count:3,racetype:'Triathlon',comment:''  }
 , { name:'Oilman 70.3',PR:'5:43:02',count:1,racetype:'Triathlon',comment:''  }
-, { name:'Oilman 70.3 Relay',PR:'',count:3,racetype:'Triathlon',comment:''  }
+
 , { name:'Oktoberfest Olympic',PR:'2:15:02',count:3,racetype:'Triathlon',comment:''  }
 , { name:'Springs Back Olympic',PR:'2:30:19',count:2,racetype:'Triathlon',comment:''  }
-
+//Relay
+, { name:'Oilman 70.3 Relay',PR:'',count:3,racetype:'Relay',comment:''  }
+, { name:'Habanero Hundred 100 Mile Relay(4 Persons)',PR:'18:07:17',count:1,racetype:'Relay',comment:''  }
 //Upcoming Races
 ,{ name:'No Label 5K',PR:'',count:1,racetype:'Upcoming Race',comment:'06/17/2023'  } 
 ,  { name:'GVRAT Tennessee 1000 Km',PR:'',count:1,racetype:'Upcoming Race',comment:'05/01/2023'  } 
