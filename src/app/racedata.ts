@@ -74,6 +74,7 @@ export var racedata =
 , { name:'Ironman Texas',PR:'12:36:32',count:3,racetype:'Triathlon',comment:''  }
 , { name:'Ironman Texas 70.3',PR:'5:26:06',count:3,racetype:'Triathlon',comment:''  }
 , { name:'Oilman 70.3',PR:'5:43:02',count:1,racetype:'Triathlon',comment:''  }
+, { name:'Oilman 70.3 Relay',PR:'',count:3,racetype:'Triathlon',comment:''  }
 , { name:'Oktoberfest Olympic',PR:'2:15:02',count:3,racetype:'Triathlon',comment:''  }
 , { name:'Springs Back Olympic',PR:'2:30:19',count:2,racetype:'Triathlon',comment:''  }
 
