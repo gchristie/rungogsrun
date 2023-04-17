@@ -1,9 +1,9 @@
 export var racedata = 
 [ 
 //UltraMarathons
- { name:'Snowdrop 100 Miles',PR:'',count:7,racetype:'Ultra Marathon',comment:'3rd Place Male 2019'  }  
+ { name:'Snowdrop 100 Miles',PR:'23:40',count:7,racetype:'Ultra Marathon',comment:'3rd Place Male 2019'  }  
 , { name:'Run the Blades 50K',PR:'',count:2,racetype:'Ultra Marathon',comment:''  }  
-, { name:'Surfside 50K',PR:'',count:1,racetype:'Ultra Marathon',comment:'2nd Place'}  
+, { name:'Surfside 50K',PR:'3:41',count:1,racetype:'Ultra Marathon',comment:'2nd Place'}  
 , { name:'Brazos Bend 50K',PR:'7:09:15',count:1,racetype:'Ultra Marathon',comment:''  }  
 , { name:'Rocky Raccoon 50 Mile',PR:'7:41:39',count:1,racetype:'Ultra Marathon',comment:'3rd Place Male 2013'  }  
 , { name:'Brazos Bend 100 Miles',PR:'',count:1,racetype:'Ultra Marathon',comment:''  }
