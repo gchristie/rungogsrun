@@ -70,7 +70,7 @@ export class MarathonListComponent {
 
       document.getElementById('5K').hidden = false;
       document.getElementById('4Mile').hidden = false;   
-      //document.getElementById('10K').hidden = false;   
+      document.getElementById('10K').hidden = false;   
       //document.getElementById('25K').hidden = false;
       //document.getElementById('30K').hidden = false;
       //document.getElementById('Triathlon').hidden = false;    
