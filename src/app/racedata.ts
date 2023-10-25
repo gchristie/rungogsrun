@@ -104,6 +104,11 @@ export var racedata =
 , { name:'Habanero Hundred 100 Mile Relay(4 Persons)',PR:'18:07:17',count:1,racetype:'Relay',comment:''  }
 //Upcoming Races
 
-,  { name:'Marine Corps 50K',PR:'',count:1,racetype:'Upcoming Race',comment:'10/29/2023'  } 
-,  { name:'Snowdrop 100 Miles',PR:'',count:1,racetype:'Upcoming Race',comment:'12/30/2023'  }  
+
+, { name:'Marine Corps 50K',PR:'',count:1,racetype:'Upcoming Race',comment:'10/29/2023'  } 
+,  { name:'Snowdrop 100 Miles',PR:'',count:1,racetype:'Upcoming Race',comment:'12/30/2023'  } 
+,  { name:'Berlin Marathon',PR:'',count:1,racetype:'Upcoming Race',comment:'Lottery Pending'  }  
+,  { name:'Chicago Marathon',PR:'',count:1,racetype:'Upcoming Race',comment:'Lottery Pending'  }  
+,  { name:'New York Marathon',PR:'',count:1,racetype:'Upcoming Race',comment:'not yet'  }  
+,  { name:'London Marathon',PR:'',count:1,racetype:'Upcoming Race',comment:'not yet'  }   
 ];
