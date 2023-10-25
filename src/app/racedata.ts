@@ -63,6 +63,7 @@ export var racedata =
  , { name:'RNR Las Vegas',PR:'2:48:22',count:1,racetype:'Half Marathon',comment:'Married Rosa at Mile 3'  } 
  , { name:'Detroit Free Press',PR:'2:52:44',count:1,racetype:'Half Marathon',comment:'after running 87 miles' } 
  , { name:'Peterhead',PR:'1:24:21',count:1,racetype:'Half Marathon',comment:'' } 
+ , { name:'Sugar Land',PR:'3:15:41',count:1,racetype:'Half Marathon',comment:'3:15 Pacer' } 
 
  //Virtual Marathons
 , { name:'GVRAT Tennessee 1000 Km',PR:'',count:3,racetype:'Virtual Marathon',comment:''  }
@@ -102,8 +103,7 @@ export var racedata =
 , { name:'Oilman 70.3 Relay',PR:'',count:3,racetype:'Relay',comment:''  }
 , { name:'Habanero Hundred 100 Mile Relay(4 Persons)',PR:'18:07:17',count:1,racetype:'Relay',comment:''  }
 //Upcoming Races
-,{ name:'No Label 5K',PR:'',count:1,racetype:'Upcoming Race',comment:'06/17/2023'  } 
-,  { name:'GVRAT Tennessee 1000 Km',PR:'',count:1,racetype:'Upcoming Race',comment:'05/01/2023'  } 
+
 ,  { name:'Marine Corps 50K',PR:'',count:1,racetype:'Upcoming Race',comment:'10/29/2023'  } 
 ,  { name:'Snowdrop 100 Miles',PR:'',count:1,racetype:'Upcoming Race',comment:'12/30/2023'  }  
 ];
