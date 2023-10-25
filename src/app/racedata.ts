@@ -76,10 +76,58 @@ export var racedata =
   //5K
 , { name:'No Label',PR:'18:41',count:6,racetype:'5K',comment:'' } 
 , { name:'Houston',PR:'18:11',count:7,racetype:'5K',comment:''  }
-, { name:'Hot Chocolate 5K',PR:'26:00',count:1,racetype:'5K',comment:''  }
+, { name:'Hot Chocolate',PR:'26:00',count:1,racetype:'5K',comment:''  }
+, { name:'Aid Sudan',PR:'20:08',count:2,racetype:'5K',comment:''  }
+, { name:'Lazy Hazy Crazy Days Of Summer',PR:'',count:1,racetype:'5K',comment:''  }
+, { name:'Katy Turkey Dash',PR:'',count:1,racetype:'5K',comment:''  }
+, { name:'Resolution Run',PR:'',count:1,racetype:'5K',comment:''  }
+, { name:'Heart of Katy',PR:'17:43',count:1,racetype:'5K',comment:''  }
+, { name:'Missing Hearts',PR:'',count:1,racetype:'5K',comment:''  }
+, { name:'Katy Sunrise Rotary',PR:'',count:1,racetype:'5K',comment:''  }
+, { name:'Dynamo',PR:'',count:3,racetype:'5K',comment:''  }
+, { name:' Just Run for a Just Cause',PR:'',count:1,racetype:'5K',comment:''  }
+, { name:'The Great Pumpkin Run',PR:'',count:1,racetype:'5K',comment:''  }
+, { name:'run with the saints',PR:'18:52',count:1,racetype:'5K',comment:''  }
+, { name:'xmas day joyful',PR:'',count:1,racetype:'5K',comment:''  }
+, { name:'Rockets Run',PR:'',count:1,racetype:'5K',comment:''  }
+, { name:'Bellaire Trolley',PR:'',count:1,racetype:'5K',comment:''  }
+, { name:'katy rotary',PR:'',count:1,racetype:'5K',comment:''  }
+
+, { name:'Astros',PR:'',count:1,racetype:'5K',comment:''  }
+, { name:'impact a hero',PR:'',count:1,racetype:'5K',comment:''  }
+, { name:'Sugar Land Freedom',PR:'',count:1,racetype:'5K',comment:''  }
+, { name:'Blues Capital',PR:'',count:1,racetype:'5K',comment:''  }
+, { name:'Run to Cure HD',PR:'',count:1,racetype:'5K',comment:''  }
+, { name:'Spartan Pumpkin',PR:'19:59',count:1,racetype:'5K',comment:''  }
+, { name:'Run for Wellness',PR:'',count:1,racetype:'5K',comment:''  }
+, { name:'HCSO',PR:'',count:1,racetype:'5K',comment:'with Catherine'  }
+, { name:'Superhero',PR:'',count:1,racetype:'5K',comment:''  }
+, { name:'Sealy Jingle Bell',PR:'',count:1,racetype:'5K',comment:''  }
+, { name:'Commitment Day',PR:'',count:1,racetype:'5K',comment:''  }
+, { name:'Miller 64',PR:'',count:1,racetype:'5K',comment:''  }
+, { name:'Houston',PR:'',count:1,racetype:'5K',comment:''  }
+, { name:'Rise and Shine',PR:'',count:1,racetype:'5K',comment:''  }
+, { name:'Katy Running',PR:'',count:1,racetype:'5K',comment:''  }
+, { name:'Shiner',PR:'',count:1,racetype:'5K',comment:''  }
+, { name:'Lucky Charm',PR:'',count:1,racetype:'5K',comment:''  }
+, { name:'No Label',PR:'',count:1,racetype:'5K',comment:''  }
+, { name:'Ainsley Angels Twilight',PR:'',count:1,racetype:'5K',comment:''  }
+, { name:'Boston Marathon',PR:'',count:1,racetype:'5K',comment:''  }
+, { name:'Daves Turkey Chase',PR:'',count:1,racetype:'5K',comment:''  }
 
 //10K
-, { name:'Rodeo Run 10K',PR:'42:20',count:2,racetype:'10K',comment:''  }
+, { name:'Rodeo Run',PR:'42:20',count:2,racetype:'10K',comment:''  }
+, { name:'Venture On!',PR:'',count:2,racetype:'10K',comment:''  }
+, { name:'Trafigura Home Run',PR:'',count:2,racetype:'10K',comment:''  }
+, { name:'Bayou City Classic',PR:'38:01',count:1,racetype:'10K',comment:''  }
+, { name:'Just run for a just cause',PR:'',count:2,racetype:'10K',comment:''  }
+, { name:'Wild Hare',PR:'40:56',count:2,racetype:'10K',comment:'1st Place'  }
+, { name:'Turkey Dash',PR:'',count:2,racetype:'10K',comment:''  }
+, { name:'Reveille Peak Ranch Trail',PR:'51:52',count:1,racetype:'10K',comment:''  }
+, { name:'Galveston Toughest',PR:'',count:1,racetype:'10K',comment:''  }
+, { name:'Night Moves',PR:'',count:1,racetype:'10K',comment:''  }
+, { name:'Minute Maid',PR:'',count:1,racetype:'10K',comment:'Lucky Charm'  }
+, { name:'Lucky Charm',PR:'',count:1,racetype:'10K',comment:''  }
 
 //15K
 , { name:'Hot Chocolate 15K',PR:'1:04:05',count:4,racetype:'15K',comment:'2018 2nd Place'  }
