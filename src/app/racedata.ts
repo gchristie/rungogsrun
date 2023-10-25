@@ -126,7 +126,7 @@ export var racedata =
 , { name:'Reveille Peak Ranch Trail',PR:'51:52',count:1,racetype:'10K',comment:''  }
 , { name:'Galveston Toughest',PR:'',count:1,racetype:'10K',comment:''  }
 , { name:'Night Moves',PR:'',count:1,racetype:'10K',comment:''  }
-, { name:'Minute Maid',PR:'',count:1,racetype:'10K',comment:'Lucky Charm'  }
+, { name:'Minute Maid',PR:'',count:1,racetype:'10K',comment:'with Catherine'  }
 , { name:'Lucky Charm',PR:'',count:1,racetype:'10K',comment:''  }
 
 //15K
