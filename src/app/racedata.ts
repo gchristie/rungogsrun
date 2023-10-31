@@ -113,7 +113,7 @@ export var racedata =
 , { name:'Shiner',PR:'',count:1,racetype:'5K',comment:''  }
 , { name:'Lucky Charm',PR:'',count:1,racetype:'5K',comment:''  }
 , { name:'No Label',PR:'',count:1,racetype:'5K',comment:''  }
-, { name:'Ainsley Angels Twilight',PR:'',count:1,racetype:'5K',comment:''  }
+, { name:'Ainsley Angels Twilight',PR:'',count:2,racetype:'5K',comment:''  }
 , { name:'Boston Marathon',PR:'',count:1,racetype:'5K',comment:''  }
 , { name:'Daves Turkey Chase',PR:'',count:1,racetype:'5K',comment:''  }
 
