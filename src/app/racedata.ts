@@ -9,6 +9,8 @@ export var racedata =
 , { name:'Surfside 50K',PR:'3:37:52',count:1,racetype:'Ultra Marathon',comment:'2nd Place'}  
 , { name:'Brazos Bend 50K',PR:'7:09:15',count:1,racetype:'Ultra Marathon',comment:''  }  
 , { name:'Habanero Hunderd 50K',PR:'7:25:51',count:1,racetype:'Ultra Marathon',comment:''  } 
+, { name:'Marine Corps 50K',PR:'6:36:27',count:1,racetype:'Ultra Marathon',comment:''  } 
+
 
 
 
@@ -116,6 +118,7 @@ export var racedata =
 , { name:'Daves Turkey Chase',PR:'',count:1,racetype:'5K',comment:''  }
 
 //10K
+, { name:'Moray Marathon',PR:'32:30',count:2,racetype:'10K',comment:'1988/1989'  }
 , { name:'Rodeo Run',PR:'42:20',count:2,racetype:'10K',comment:''  }
 , { name:'Venture On!',PR:'',count:2,racetype:'10K',comment:''  }
 , { name:'Trafigura Home Run',PR:'',count:2,racetype:'10K',comment:''  }
@@ -133,7 +136,11 @@ export var racedata =
 , { name:'Hot Chocolate 15K',PR:'1:04:05',count:4,racetype:'15K',comment:'2018 2nd Place'  }
 
 //4 Mile
-, { name:'Run 4 the Children 4 Mile',PR:'23:36',count:8,racetype:'4 Mile',comment:'2014 1st Place'  }
+, { name:'Run 4 the Children',PR:'23:36',count:8,racetype:'4Mile',comment:'2014 1st Place'  }
+, { name:'Park Four',PR:'',count:1,racetype:'4Mile',comment:''  }
+
+//5 Mile
+, { name:'The Texas Bud Heat Wave',PR:'',count:8,racetype:'5Mile',comment:''  }
 
 
 
@@ -153,7 +160,7 @@ export var racedata =
 //Upcoming Races
 
 
-, { name:'Marine Corps 50K',PR:'',count:1,racetype:'Upcoming Race',comment:'10/29/2023'  } 
+
 ,  { name:'Snowdrop 100 Miles',PR:'',count:1,racetype:'Upcoming Race',comment:'12/30/2023'  } 
 ,  { name:'Berlin Marathon',PR:'',count:1,racetype:'Upcoming Race',comment:'Lottery Pending'  }  
 ,  { name:'Chicago Marathon',PR:'',count:1,racetype:'Upcoming Race',comment:'Lottery Pending'  }  

@@ -142,7 +142,7 @@
   </table>
   <DIV> 
 
-    <!--
+  
   <DIV id="4Mile">
     <h2>4 Mile Race</h2>
     <table border=1>
@@ -164,7 +164,29 @@
     </ng-container>
     </table>
   <DIV> 
-  -->
+  
+
+  <DIV id="5Mile">
+  <h2>4 Mile Race</h2>
+  <table border=1>
+  <TR style='font-weight: bold' >
+    <TD >Race Name</TD>
+    <TD>PR Time</TD>
+    <TD style="align:center">Times Done</TD>
+    <TD style="align:left">Comment</TD>
+  </TR> 
+  <ng-container *ngFor="let race of racedata">
+    <ng-container *ngIf="race.racetype=='5Mile'"> 
+  <TR>
+    <TD>{{ race.name}} {{ race.racetype }}  </TD>
+    <TD>{{ race.PR }}</TD>
+    <TD align="center">{{ race.count }} </TD>
+    <TD align="center">{{ race.comment }} </TD>
+  </TR>
+  </ng-container>
+  </ng-container>
+  </table>
+<DIV> 
 
   <DIV id="10K">
     <h2>10K Race</h2>
