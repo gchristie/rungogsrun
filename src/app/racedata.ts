@@ -68,7 +68,7 @@ export var racedata =
  , { name:'Sugar Land',PR:'3:15:41',count:1,racetype:'Half Marathon',comment:'3:15 Pacer' } 
 
  //Virtual Marathons
-, { name:'GVRAT Tennessee 1000 Km',PR:'',count:3,racetype:'Virtual Marathon',comment:''  }
+, { name:'GVRAT Tennessee 1000 Km',PR:'',count:4,racetype:'Virtual Marathon',comment:''  }
   , { name:'Boston',PR:'',count:1,racetype:'Virtual Marathon',comment:''  }
   , { name:'London',PR:'',count:1,racetype:'Virtual Marathon',comment:''  }
   , { name:'Marine Corps 50K',PR:'',count:1,racetype:'Virtual Marathon',comment:''  }
