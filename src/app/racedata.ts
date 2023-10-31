@@ -159,7 +159,7 @@ export var racedata =
 //Upcoming Races
 
 
-
+,  { name:'Shiner Half Marathon',PR:'',count:1,racetype:'Upcoming Race',comment:'not yet'  }   
 ,  { name:'Snowdrop 100 Miles',PR:'',count:1,racetype:'Upcoming Race',comment:'12/30/2023'  } 
 ,  { name:'Berlin Marathon',PR:'',count:1,racetype:'Upcoming Race',comment:'Lottery Pending'  }  
 ,  { name:'Chicago Marathon',PR:'',count:1,racetype:'Upcoming Race',comment:'Lottery Pending'  }  
