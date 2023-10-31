@@ -137,11 +137,11 @@ export var racedata =
 
 //4 Mile
 , { name:'Run 4 the Children',PR:'23:36',count:8,racetype:'4Mile',comment:'2014 1st Place'  }
-, { name:'Park Four',PR:'',count:1,racetype:'4Mile',comment:''  }
+, { name:'4 the park',PR:'23:47',count:1,racetype:'4Mile',comment:''  }
 
 //5 Mile
-, { name:'The Texas Bud Heat Wave',PR:'',count:8,racetype:'5Mile',comment:''  }
-
+, { name:'The Texas Bud Heat Wave',PR:'',count:6,racetype:'5Mile',comment:''  }
+, { name:'Jingle Bell',PR:'31:35',count:1,racetype:'5Mile',comment:''  }
 
 
 
