@@ -123,12 +123,12 @@ export var racedata =
 , { name:'Trafigura Home Run',PR:'',count:2,racetype:'10K',comment:''  }
 , { name:'Bayou City Classic',PR:'38:01',count:1,racetype:'10K',comment:''  }
 , { name:'Just run for a just cause',PR:'',count:2,racetype:'10K',comment:''  }
-, { name:'Wild Hare',PR:'40:56',count:2,racetype:'10K',comment:'1st Place'  }
+, { name:'Wild Hare',PR:'40:56',count:1,racetype:'10K',comment:'1st Place'  }
 , { name:'Turkey Dash',PR:'',count:2,racetype:'10K',comment:''  }
-, { name:'Reveille Peak Ranch Trail',PR:'51:52',count:1,racetype:'10K',comment:''  }
+, { name:'Reveille Peak Ranch Trail',PR:'51:52',count:2,racetype:'10K',comment:''  }
 , { name:'Galveston Toughest',PR:'',count:1,racetype:'10K',comment:''  }
 , { name:'Night Moves',PR:'',count:1,racetype:'10K',comment:''  }
-, { name:'Minute Maid',PR:'',count:1,racetype:'10K',comment:'with Catherine'  }
+, { name:'Minute Maid',PR:'',count:2,racetype:'10K',comment:'with Catherine/with Anna'  }
 , { name:'Lucky Charm',PR:'',count:1,racetype:'10K',comment:''  }
 
 //15K
