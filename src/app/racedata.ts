@@ -107,7 +107,6 @@ export var racedata =
 , { name:'Sealy Jingle Bell',PR:'',count:1,racetype:'5K',comment:''  }
 , { name:'Commitment Day',PR:'',count:1,racetype:'5K',comment:''  }
 , { name:'Miller 64',PR:'',count:1,racetype:'5K',comment:''  }
-, { name:'Houston',PR:'',count:1,racetype:'5K',comment:''  }
 , { name:'Rise and Shine',PR:'',count:1,racetype:'5K',comment:''  }
 , { name:'Katy Running',PR:'',count:1,racetype:'5K',comment:''  }
 , { name:'Shiner',PR:'',count:1,racetype:'5K',comment:''  }
