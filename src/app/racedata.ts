@@ -161,7 +161,7 @@ export var racedata =
 
 ,  { name:'Hot Chocolate 15K',PR:'',count:1,racetype:'Upcoming Race',comment:'01/27/2024'  }   
 ,  { name:'Rodeo Run',PR:'',count:1,racetype:'Upcoming Race',comment:''  } 
-,  { name:'Seabrook Marathon',PR:'',count:1,racetype:'Upcoming Race',comment:'013/16/2024'  } 
+,  { name:'Seabrook Marathon',PR:'',count:1,racetype:'Upcoming Race',comment:'03/16/2024'  } 
 ,  { name:'MS 150',PR:'',count:1,racetype:'Upcoming Race',comment:''  } 
 ,  { name:'London Virtual Marathon',PR:'',count:1,racetype:'Upcoming Race',comment:''  }   
 ];
