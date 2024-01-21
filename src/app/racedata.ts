@@ -66,7 +66,7 @@ export var racedata =
  , { name:'Detroit Free Press',PR:'2:52:44',count:1,racetype:'Half Marathon',comment:'after running 87 miles' } 
  , { name:'Peterhead',PR:'1:24:21',count:1,racetype:'Half Marathon',comment:'' } 
  , { name:'Sugar Land',PR:'3:15:41',count:1,racetype:'Half Marathon',comment:'3:15 Pacer' } 
-
+ , { name:'Time Travel',PR:'3:46:07',count:1,racetype:'Half Marathon',comment:'2:50 Pacer' } 
  //Virtual Marathons
 , { name:'GVRAT Tennessee 1000 Km',PR:'',count:4,racetype:'Virtual Marathon',comment:''  }
   , { name:'Boston',PR:'',count:1,racetype:'Virtual Marathon',comment:''  }
@@ -87,7 +87,7 @@ export var racedata =
 , { name:'Missing Hearts',PR:'',count:1,racetype:'5K',comment:''  }
 , { name:'Katy Sunrise Rotary',PR:'',count:1,racetype:'5K',comment:''  }
 , { name:'Dynamo',PR:'',count:3,racetype:'5K',comment:''  }
-, { name:' Just Run for a Just Cause',PR:'',count:1,racetype:'5K',comment:''  }
+, { name:'Just Run for a Just Cause',PR:'',count:1,racetype:'5K',comment:''  }
 , { name:'The Great Pumpkin Run',PR:'',count:1,racetype:'5K',comment:''  }
 , { name:'run with the saints',PR:'18:52',count:1,racetype:'5K',comment:''  }
 , { name:'xmas day joyful',PR:'',count:1,racetype:'5K',comment:''  }
@@ -96,7 +96,7 @@ export var racedata =
 , { name:'katy rotary',PR:'',count:1,racetype:'5K',comment:''  }
 
 , { name:'Astros',PR:'',count:1,racetype:'5K',comment:''  }
-, { name:'impact a hero',PR:'',count:1,racetype:'5K',comment:''  }
+, { name:'Impact a Hero',PR:'',count:1,racetype:'5K',comment:''  }
 , { name:'Sugar Land Freedom',PR:'',count:1,racetype:'5K',comment:''  }
 , { name:'Blues Capital',PR:'',count:1,racetype:'5K',comment:''  }
 , { name:'Run to Cure HD',PR:'',count:1,racetype:'5K',comment:''  }
