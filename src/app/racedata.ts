@@ -1,7 +1,7 @@
 export var racedata = 
 [ 
 //100 Mile
- { name:'Snowdrop 100 Miles',PR:'21:59:07',count:7,racetype:'Ultra Marathon',comment:'3rd Place Male 2019'  }  
+ { name:'Snowdrop 100 Miles',PR:'21:59:07',count:8,racetype:'Ultra Marathon',comment:'3rd Place Male 2019'  }  
  , { name:'Brazos Bend 100 Miles',PR:'19:06:54',count:1,racetype:'Ultra Marathon',comment:''  }
 
 //50K
@@ -23,7 +23,7 @@ export var racedata =
 
 
  //Marathons
- ,  { name:'Houston',PR:'2:51:11',count:13,racetype:'Marathon',comment:'Marathon PR'  }
+ ,  { name:'Houston',PR:'2:51:11',count:14,racetype:'Marathon',comment:'Marathon PR'  }
  , { name:'Boston',PR:'2:58:40',count:10,racetype:'Marathon',comment:''  }
  , { name:'Seabrook',PR:'3:08:50',count :6,racetype:'Marathon',comment:'2012 1st Place'  }
  , { name:'Moray',PR:'2:53:06',count :5,racetype:'Marathon',comment:''  }
@@ -159,10 +159,9 @@ export var racedata =
 //Upcoming Races
 
 
-,  { name:'Shiner Half Marathon',PR:'',count:1,racetype:'Upcoming Race',comment:'not yet'  }   
-,  { name:'Snowdrop 100 Miles',PR:'',count:1,racetype:'Upcoming Race',comment:'12/30/2023'  } 
-,  { name:'Berlin Marathon',PR:'',count:1,racetype:'Upcoming Race',comment:'Lottery Pending'  }  
-,  { name:'Chicago Marathon',PR:'',count:1,racetype:'Upcoming Race',comment:'Lottery Pending'  }  
-,  { name:'New York Marathon',PR:'',count:1,racetype:'Upcoming Race',comment:'not yet'  }  
-,  { name:'London Marathon',PR:'',count:1,racetype:'Upcoming Race',comment:'not yet'  }   
+,  { name:'Hot Chocolate 15K',PR:'',count:1,racetype:'Upcoming Race',comment:'01/27/2024'  }   
+,  { name:'Rodeo Run',PR:'',count:1,racetype:'Upcoming Race',comment:''  } 
+,  { name:'Seabrook Marathon',PR:'',count:1,racetype:'Upcoming Race',comment:'013/16/2024'  } 
+,  { name:'MS 150',PR:'',count:1,racetype:'Upcoming Race',comment:''  } 
+,  { name:'London Virtual Marathon',PR:'',count:1,racetype:'Upcoming Race',comment:''  }   
 ];
